@@ -2,7 +2,7 @@
 
 ## Week 1
 
-1. Review the [course syllabus](https://github.com/dphiffer/scripting/blob/master/syllabus.md).
+1. Review the [course syllabus](https://github.com/dphiffer/scripting/blob/fall-2015/syllabus.md).
 2. [Set up a (free) GitHub account](https://github.com/join) if you don't already have one.
 3. [Set up a Google Plus account](https://plus.google.com/) if you don't already have one.
 4. [Fill out the student survey](https://docs.google.com/forms/d/1v3zCvcZYKljpOYQ9-rX6-kKjOvnkCl6d8i0qduojEbo/viewform?usp=send_form).
