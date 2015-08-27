@@ -15,9 +15,9 @@ Introduction to the use of scripting languages in a web-based environment. An ov
 
 ## Required Materials
 
-1. [Apple Macbook Pro]
-2. [GitHub free account]
-3. [JavaScript: The Definitive Guide (6th Edition)]
+1. [Apple Macbook Pro](http://www.bradley.edu/academic/colleges/cfa/laptop/)
+2. [GitHub free account](https://github.com/)
+3. [JavaScript: The Definitive Guide (6th Edition)](http://shop.oreilly.com/product/9780596805531.do)
 
 ## Overview & Goals 
 
@@ -79,7 +79,7 @@ Class attendance, learning, and letter grades are positively correlated. A full 
 
 ## Academic Honesty & Authenticity 
 
-[Bradley University’s policy] as communicated in the Student Handbook will be strictly enforced. All work is to be original and completed alone and not in collaboration with others, unless otherwise specified by the assignment.
+[Bradley University’s policy](http://www.bradley.edu/campuslife/studenthandbook/policies/) as communicated in the Student Handbook will be strictly enforced. All work is to be original and completed alone and not in collaboration with others, unless otherwise specified by the assignment.
 
 Open Source ideologies are supported and encouraged at times, however any use of code other than your own original work, including Open Source code, must be approved by the instructor before the assignment is due. 
 
@@ -103,6 +103,6 @@ In accordance with University policies, the Department of Interactive Media does
 
 ## Lab Policy
 
-Students in Interactive Media courses have exclusive access to GCC205 and priority access to GCC213 during open lab time, when classes are not in session. Hours, policies, and other information can be found on the GCC labs website, [http://gcc.bradley.edu/labs]. GCC205 and GCC213 offer 24/7 swipe-card access to students enrolled in a class meeting in that room. You must bring your ID to access the lab during open lab time. After 10pm, the building is locked and you will need your ID to get in via the front doors. Do not let anyone else into the building or the lab. Color and black and white prints on a variety of paper sizes can be made using the networked printers located in room 210, the Service Bureau. See the GCC labs website for detailed information on how to add these printers to your laptop. Pay for prints during Service Bureau hours using your ID (QuickCash) card. The Service Bureau does not accept any other methods of payment. You must pay for the prints ￼you make whether you want them or not. Violations of the lab policies may result in loss of access to the computer labs.￼
+Students in Interactive Media courses have exclusive access to GCC205 and priority access to GCC213 during open lab time, when classes are not in session. Hours, policies, and other information can be found on the GCC labs website, [http://gcc.bradley.edu/labs](#). GCC205 and GCC213 offer 24/7 swipe-card access to students enrolled in a class meeting in that room. You must bring your ID to access the lab during open lab time. After 10pm, the building is locked and you will need your ID to get in via the front doors. Do not let anyone else into the building or the lab. Color and black and white prints on a variety of paper sizes can be made using the networked printers located in room 210, the Service Bureau. See the GCC labs website for detailed information on how to add these printers to your laptop. Pay for prints during Service Bureau hours using your ID (QuickCash) card. The Service Bureau does not accept any other methods of payment. You must pay for the prints ￼you make whether you want them or not. Violations of the lab policies may result in loss of access to the computer labs.￼
 ￼ ￼ ￼ 
 ￼ 
