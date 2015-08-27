@@ -17,7 +17,8 @@ Introduction to the use of scripting languages in a web-based environment. An ov
 
 1. [Apple Macbook Pro](http://www.bradley.edu/academic/colleges/cfa/laptop/)
 2. [GitHub free account](https://github.com/)
-3. [JavaScript: The Definitive Guide (6th Edition)](http://shop.oreilly.com/product/9780596805531.do)
+3. [Google Plus account](https://plus.google.com/)
+4. [JavaScript: The Definitive Guide (6th Edition)](http://shop.oreilly.com/product/9780596805531.do)
 
 ## Overview & Goals 
 
