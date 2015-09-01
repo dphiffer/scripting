@@ -1,5 +1,10 @@
 <?php
 
+if (!empty($_GET['update'])) {
+  exec('/usr/bin/git pull origin fall-2015');
+  exit;
+}
+
 require_once 'lib/markdown/Michelf/Markdown.inc.php';
 use \Michelf\Markdown;
 
