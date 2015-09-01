@@ -1,7 +1,8 @@
 <?php
 
-if (!empty($_GET['update'])) {
-  exec('/usr/bin/git pull origin fall-2015');
+if (!empty($_POST['payload'])) {
+  $dir = __DIR__;
+  shell_exec("cd $dir && git reset --hard HEAD && git pull");
   exit;
 }
 
