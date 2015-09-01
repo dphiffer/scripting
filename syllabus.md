@@ -7,7 +7,7 @@
 
 __Dan Phiffer__  
 (314) 467-8479  
-dan@phiffer.org  
+dphiffer@bradley.edu  
 
 ## Description
 
@@ -23,19 +23,20 @@ Introduction to the use of scripting languages in a web-based environment. An ov
 ## Overview & Goals 
 
 This course is the fourth in a series of introductory courses for the Department of Interactive Media. Building upon the exposure coding fundamentals in IM 115, this course will introduce basic scripting languages and the MySQL database. 
-Upon completion of the course students will achieve an understanding of the basic principles of PHP, JavaScript and the MySQL database. Students will be able to use the languages to create dynamic solutions for their web related needs. 
+
+Upon completion of the course students will achieve an understanding of the basic principles of PHP, JavaScript and the MySQL database. Students will be able to use the languages to create dynamic solutions for their web related needs.
 
 ## Assignments
 
-There will be a number of exercises and projects that will enhance your conceptual and technical abilities with the medium and authoring environments. These assignments will build in complexity and scope throughout the semester. The projects will require you to demonstrate your proficiency in the concepts and techniques explored during the semester. 
+There will be a number of exercises and projects that will enhance your conceptual and technical abilities with the medium and authoring environments. These assignments will build in complexity and scope throughout the semester. The projects will require you to demonstrate your proficiency in the concepts and techniques explored during the semester.
 
 ## Quizzes
 
-In addition to the course content, quizzes may cover terminology from readings and lectures. Quizzes will run during the first 15 minutes of class and if missed due to an unexcused absence or tardiness cannot be made-up. 
+In addition to the course content, quizzes may cover terminology from readings and lectures. Quizzes will run during the first 15 minutes of class and if missed due to an unexcused absence or tardiness cannot be made-up.
 
 ## Critiques
 
-Critiques will be carried out in class by your peers and facilitated by the professor. These are designed to help you become better in your craft and not to judge you as a person. Critiques must be constructive. 
+Critiques will be carried out in class by your peers and facilitated by the professor. These are designed to help you become better in your craft and not to judge you as a person. Critiques must be constructive.
 
 ## Grading 
 
