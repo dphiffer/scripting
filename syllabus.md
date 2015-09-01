@@ -1,4 +1,4 @@
-## Syllabus
+# Syllabus
 
 ### Introduction to Scripting Languages
 ### IM 215, Fall 2015
