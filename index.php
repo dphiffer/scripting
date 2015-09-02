@@ -1,11 +1,7 @@
 <?php
 
 // Update from GitHub webhook
-if (!empty($_POST['payload'])) {
-  $dir = __DIR__;
-  shell_exec("cd $dir && git reset --hard HEAD && git pull");
-  exit;
-}
+require_once 'lib/update.php';
 
 // PHP Markdown
 require_once 'lib/markdown/Michelf/MarkdownExtra.inc.php';
