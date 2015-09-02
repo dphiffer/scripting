@@ -36,9 +36,10 @@ if ($path != '' && $path != '/') { // If this isn't the homepage
   }
 }
 
+// Class for page-specific CSS
 $page_class = strtolower(preg_replace('/[^a-zA-Z-]+/', '-', $filename));
 
-if (!file_exists($filename)) {
+if (!file_exists($filename)) { // Make sure we can actually find the file
   $html = <<<END
   <h1>404 not found</h1>
   <p>Sorry, that page wasn’t found. You probably want to start from the <a href="$base_path/">homepage</a>.</p>
@@ -46,18 +47,20 @@ END;
 } else {
   $html = file_get_contents($filename);
   if (substr($filename, -3, 3) == '.md') {
+    // Parse as Markdown if the filename ends in .md
     $html = MarkdownExtra::defaultTransform($html);
   }
 }
 
+// Use the first <h1> as the page title
 if (preg_match('#<h1>(.+?)</h1>#', $html, $matches)) {
   if ($matches[1] != $title) {
+    // Keep the site-wide title, after the page title
     $title = $matches[1] . " / $title";
-  } else {
-    $title = $matches[1];
   }
 }
 
+// Rewrite URLs in the HTML so that they link here
 $html = preg_replace_callback("#$github_url([a-zA-Z0-9/._-]+)#", function($matches) use ($base_path) {
   $path = $matches[1];
   if (substr($path, -3, 3) == '.md') {
@@ -66,6 +69,7 @@ $html = preg_replace_callback("#$github_url([a-zA-Z0-9/._-]+)#", function($match
   return $base_path . $path;
 }, $html);
 
+// Kick off the page template
 require_once 'lib/template.php';
 
 ?>
