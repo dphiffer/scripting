@@ -7,7 +7,7 @@ ignore_user_abort(true);
 function syscall ($cmd, $cwd) {
   $descriptorspec = array(
     1 => array('pipe', 'w'), // stdout is a pipe that the child will write to
-    2 => array('pipe', 'w') // stderr
+    2 => array('pipe', 'w')  // stderr
   );
   $resource = proc_open($cmd, $descriptorspec, $pipes, $cwd);
   if (is_resource($resource)) {
