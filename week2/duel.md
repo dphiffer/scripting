@@ -28,21 +28,56 @@ You can ignore the instructions on the resulting page.
 ## Clone your repository
 
 * Go to the __File__ menu and choose __Clone repository__
-* Select your `exercise-1-duel` repository from the list and click the __Clone exercise-1-duel__ button
+* Select your repository from the list and click the __Clone exercise-1-duel__ button
 * Choose a folder to save your work, just be sure you can find it later
 
 ![Clone your repository](http://phiffer.org/scripting/week2/images/clone-repository.jpg)
 
-## Copy this
+## Set up Atom editor
 
-Select the dueling stick figures shown below, and copy the text to your clipboard.
+* Open the [Atom text editor](https://atom.io/)
+* Go to the __File__ menu and choose __Open__ *(or use the keyboard shortcut ⌘-O)*
+* Navigate to the folder you chose earlier, select the __exercise-1-duel__ folder and click the __Open__ button
+
+You should see an empty project window with a sequence of tips about keyboard shortcuts.
+
+![Empty project](http://phiffer.org/scripting/week2/images/empty-project.jpg)
+
+## Create a new file
+
+* Go to the __File__ menu and choose __New File__ *(or use the keyboard shortcut ⌘-N)*
+* Go to the __File__ menu and choose __Save__
+* Give your empty file the name `duel1.txt` and save it into your `exercise-1-duel` folder
+
+You should see a new entry for `duel1.txt` appear in the project sidebar.
+
+![Empty file](http://phiffer.org/scripting/week2/images/empty-file.jpg)
+
+## Copy from the page
+
+* Select the dueling stick figures shown below
+* Copy the text to your clipboard with the keyboard shortcut __⌘-C__
 
 ```
+
 ~O  O~
 <|/\|>
  |\ |\
+
 ```
 
-## Paste in a new file
+## Paste into your new file
 
-Open your text editor, create a new file, and paste the contents of your clipboard. Save your file as `1.txt`, and place it into a new folder somewhere.
+* Go back to the Atom editor
+* Paste the contents of your clipboard with the keyboard shortcut __⌘-V__
+* Save your file with the keyboard shortcut __⌘-S__
+
+You may notice a little blue dot disappear from the tab, indicating you no longer have unsaved changes.
+
+![Duel text](http://phiffer.org/scripting/week2/images/duel-txt.jpg)
+
+## Commit your change
+
+*Note: if you are not using the GitHub Desktop app, follow the instructions about [how to commit your changes using the command line]().*
+
+* Go to the GitHub Desktop app

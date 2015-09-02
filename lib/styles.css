@@ -19,8 +19,7 @@ img {
   height: auto;
 }
 
-img.border {
-  width: 100%;
+.border {
   border: 4px solid #f2f2f2;
 }
 
