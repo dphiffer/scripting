@@ -8,6 +8,22 @@ body {
   margin: 0;
 }
 
+p, ul, ol {
+  margin-top: 1em;
+}
+
+img {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+}
+
+img.border {
+  width: 100%;
+  border: 4px solid #f2f2f2;
+}
+
 i, em {
   font-family: source_sans_pro_italic, sans-serif;
   font-style: normal;
@@ -167,6 +183,7 @@ footer .column {
 }
 
 #page.students-md #main h2 img {
+  width: 100px;
   vertical-align: bottom;
   margin-right: 0.25em;
 }
