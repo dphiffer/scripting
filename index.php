@@ -28,7 +28,15 @@ if ($path != '' && $path != '/') { // If this isn't the homepage
       file_exists("$filename.md")) {
     $filename .= '.md';
   }
+
+  // Look for the .html file extension
+  if (!file_exists($filename) &&
+      file_exists("$filename.html")) {
+    $filename .= '.html';
+  }
 }
+
+$page_class = strtolower(preg_replace('/[^a-zA-Z-]+/', '-', $filename));
 
 if (!file_exists($filename)) {
   $html = <<<END
@@ -36,8 +44,10 @@ if (!file_exists($filename)) {
   <p>Sorry, that page wasn’t found. You probably want to start from the <a href="$base_path/">homepage</a>.</p>
 END;
 } else {
-  $markdown = file_get_contents($filename);
-  $html = MarkdownExtra::defaultTransform($markdown);
+  $html = file_get_contents($filename);
+  if (substr($filename, -3, 3) == '.md') {
+    $html = MarkdownExtra::defaultTransform($html);
+  }
 }
 
 if (preg_match('#<h1>(.+?)</h1>#', $html, $matches)) {

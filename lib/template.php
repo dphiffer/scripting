@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="<?php echo $base_path; ?>/lib/styles.css">
   </head>
   <body>
-    <div id="page">
+    <div id="page" class="<?php echo $page_class; ?>">
       <header>
         <?php require_once 'header.php'; ?>
       </header>
