@@ -57,6 +57,7 @@
   <div class="column">
     <h4>Further Reading</h4>
     <ul>
+      <li><a href="http://99u.com/">99U</a></li>
       <li><a href="http://www.aiga.org/">AIGA</a></li>
       <li><a href="http://alistapart.com/">A List Apart</a></li>
       <li><a href="http://www.html5rocks.com/en/">HTML 5 Rocks</a></li>
