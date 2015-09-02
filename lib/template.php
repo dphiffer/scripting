@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php echo $title; ?></title>
     <link rel="stylesheet" href="<?php echo $base_path; ?>/lib/styles.css">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="lib/favicon.ico">
   </head>
   <body>
     <div id="page" class="<?php echo $page_class; ?>">

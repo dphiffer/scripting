@@ -1,5 +1,11 @@
 # Intro to Scripting Languages
 
+## Week 2: Thursday
+
+1. We now have a [new class website](http://phiffer.org/scripting/)!
+2. Join the [Google Hangout](#)
+3. Excercise: [The ASCII duel](), due on Tuesday
+
 ## Week 2: Tuesday
 
 1. Join the Google Hangout (use [Google Chrome](http://www.google.com/chrome/) browser)
