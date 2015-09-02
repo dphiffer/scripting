@@ -97,7 +97,6 @@ ul li {
 }
 
 nav a {
-  margin-right: 0.75em;
   text-decoration: none;
 }
 
@@ -107,13 +106,15 @@ nav a:hover {
 }
 
 header {
+  color: #333;
   background-color: #f2f2f2;
   padding: 2.5em 1.5em 1em 1.5em;
   border-bottom: 4px solid #09c;
 }
 
 header a {
-  color: #666;
+  color: #333;
+  margin-left: 0.75em;
 }
 
 header a:hover {
