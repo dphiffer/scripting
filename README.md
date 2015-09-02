@@ -1,4 +1,4 @@
-# Introduction to Scripting Languages
+# Intro to Scripting Languages
 
 ## Week 2: Tuesday
 
