@@ -29,22 +29,10 @@ function git_current_branch ($cwd) {
   }
 }
 
-// make sure the request is coming from GitHub
-// https://help.github.com/articles/what-ip-addresses-does-github-use-that-i-should-whitelist
-/*
- $gh_ips = array('207.97.227.253', '50.57.128.197', '108.171.174.178');
- if (in_array($_SERVER['REMOTE_ADDR'], $gh_ips) === false) {
- header('Status: 403 Your IP is not on our list; bugger off', true, 403);
- mail('root', 'GitHub hook error: bad ip', $_SERVER['REMOTE_ADDR']);
- exit();
- }
- */
-
-$cwd = dirname(__DIR__);
-
 // GitHub will hit us with POST (http://help.github.com/post-receive-hooks/)
 if (!empty($_POST['payload'])) {
 
+  $cwd = dirname(__DIR__);
   $payload = json_decode($_POST['payload']);
 
   // which branch was committed?
@@ -86,6 +74,8 @@ if (!empty($_POST['payload'])) {
     $fh = fopen("$cwd/update.log", 'a');
     fwrite($fh, $output);
 
+    // All done here
+    die($output);
   }
 
 }
