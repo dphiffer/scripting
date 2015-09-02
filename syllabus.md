@@ -1,11 +1,12 @@
 # Syllabus
 
-### Introduction to Scripting Languages
-### IM 215, Fall 2015
+Introduction to Scripting Languages  
+Bradley University  
+IM 215/CIS 215, Fall 2015
 
 ## Instructor
 
-__Dan Phiffer__  
+Dan Phiffer  
 (314) 467-8479  
 dphiffer@bradley.edu  
 
@@ -94,7 +95,7 @@ When missing classes and related assignments due to an illness it is the student
 The Department of Interactive Media has a policy to protect student privacy and in accordance with the Family Educational Rights and Privacy Act. Questions and concerns regarding grades must be presented in person or in a written letter. Because of this policy, the instructor will not respond to questions and concerns communicated through e-mail or telephone calls regarding grades. Additionally, the instructor will not speak to you about your individual grades in the presence of other students.
 
 We treat our students as adults, and as such, the Department Chair and faculty are available to discuss issues regarding your grades or classroom policies with you. Due to FERPA, faculty and staff cannot comment on any student records without a legal release, including with your parents.
-￼
+
 ## Policy Regarding Electronic Communication of Grades
 
 In accordance with the Department policy to protect student privacy and in accordance with the Family Educational Rights and Privacy Act (FERPA), questions and concerns regarding grades must be presented in a written letter.

@@ -1,57 +1,192 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(fonts/sourcesanspro.css);
+@import url(reset.css);
+
 body {
-  font-family: "Open Sans";
-  font-size: 13px;
-  line-height: 1.75em;
+  font-family: source_sans_pro_regular, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
   margin: 0;
-  background: #efefef;
 }
 
-h1 {
-  font-size: 1.75em;
-  margin: 2em 0 1.5em 0;
+i, em {
+  font-family: source_sans_pro_italic, sans-serif;
+  font-style: normal;
 }
 
-h2 {
-  font-size: 1.15em;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 0.25em;
-  margin-top: 1.5em;
-}
-
-h3 {
-  font-size: 1.1em;
-  letter-spacing: 0.05em;
-  color: #888;
-  margin: 0;
-  text-transform: uppercase;
+b, strong {
+  font-family: source_sans_pro_bold, sans-serif;
   font-weight: normal;
 }
 
+b i, i b,
+strong em, em strong,
+strong i, i strong,
+b em, em b {
+  font-family: source_sans_pro_bold_italic, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2, h3, h4 {
+  line-height: 100%;
+  font-family: source_sans_pro_light, sans-serif;
+  font-weight: normal;
+}
+
+h1 em, h2 em, h3 em, h4 em {
+  font-family: source_sans_pro_light_italic, sans-serif;
+}
+
+h1 strong, h2 strong, h3 strong, h4 strong {
+  font-family: source_sans_pro_regular, sans-serif;
+}
+
+h1 strong em, h2 strong em, h3 strong em, h4 strong em,
+h1 em strong, h2 em strong, h3 em strong, h4 em strong {
+  font-family: source_sans_pro_italic, sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 1em 0 0.75em 0;
+}
+
+h2 {
+  font-size: 28px;
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 0.25em;
+  margin: 1em 0 0.75em 0;
+}
+
+h3 {
+  font-size: 24px;
+  margin: 1em 0 0.75em 0;
+}
+
+h4 {
+  font-size: 18px;
+  margin: 1em 0 0.75em 0;
+}
+
 a {
-  color: #309FE6;
+  color: #09c;
 }
 
 a:hover {
-  color: #1E7FC1;
+  color: #3cf;
+}
+
+ul, ol {
+  margin-left: 1.25em;
+}
+
+ul li, ol li {
+  padding-left: 0.25em;
+  margin: 0.25em 0;
+}
+
+ul li {
+  list-style: square;
+}
+
+.small, small {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 100%;
+}
+
+nav a {
+  margin-right: 0.75em;
+  text-decoration: none;
+}
+
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-color: #efefef;
+  padding: 2.5em 1.5em 1em 1.5em;
+  border-bottom: 4px solid #09c;
+}
+
+header a {
+  color: #666;
+}
+
+header a:hover {
+  color: #09c;
+}
+
+footer {
+  color: #aaa;
+  background-color: #444;
+  margin-top: 1.5em;
+  padding-bottom: 3em;
+  border-top: 4px solid #aaa;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #3cf;
+}
+
+footer h4 {
+  padding-top: 1em;
+  margin-top: 0;
+}
+
+footer .column {
+  padding: 0 1.5em;
+  box-sizing: border-box;
 }
 
 #page {
+  position: relative;
   box-sizing: border-box;
   width: 100%;
-  max-width: 650px;
+  max-width: 960px;
   margin: 0 auto;
+}
+
+#main {
   padding: 1.5em;
-  background: rgba(255, 255, 255, 0.8);
-  border-left: 5px solid #309FE6;
-  border-right: 5px solid #309FE6;
-  border-bottom: 5px solid #309FE6;
 }
 
 @media (min-width: 650px) {
 
-  #page {
-    padding: 1em 5em 5em 5em;
+  header {
+    padding: 3em 1.5em 1.5em 1.5em;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  footer {
+    margin-top: 3em;
+  }
+
+  footer .column {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
   }
 
 }

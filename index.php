@@ -1,23 +1,33 @@
 <?php
 
+// Update from GitHub webhook
 if (!empty($_POST['payload'])) {
   $dir = __DIR__;
   shell_exec("cd $dir && git reset --hard HEAD && git pull");
   exit;
 }
 
-require_once 'lib/markdown/Michelf/Markdown.inc.php';
-use \Michelf\Markdown;
+// PHP Markdown
+require_once 'lib/markdown/Michelf/MarkdownExtra.inc.php';
+use \Michelf\MarkdownExtra;
 
+// Default settings
 $title = 'Introduction to Scripting Languages';
 $github_url = 'https://github.com/dphiffer/scripting/blob/fall-2015';
 $base_path = '/scripting';
 $filename = 'README.md';
-$path = preg_replace("#^$base_path/#", '', $_SERVER['REQUEST_URI']);
 
-if ($path != '' && $path != '/') {
+// Derive filename from URL
+$path = preg_replace("#^$base_path/#", '', $_SERVER['REQUEST_URI']);
+if ($path != '' && $path != '/') { // If this isn't the homepage
+
+  // Protect against directory traversal
   $filename = str_replace('..', '', $path);
+
+  // Ignore trailing slash
   $filename = preg_replace('#/$#', '', $filename);
+
+  // Look for the .md file extension
   if (!file_exists($filename) &&
       file_exists("$filename.md")) {
     $filename .= '.md';
@@ -31,7 +41,7 @@ if (!file_exists($filename)) {
 END;
 } else {
   $markdown = file_get_contents($filename);
-  $html = Markdown::defaultTransform($markdown);
+  $html = MarkdownExtra::defaultTransform($markdown);
 }
 
 if (preg_match('#<h1>(.+?)</h1>#', $html, $matches)) {
@@ -50,17 +60,6 @@ $html = preg_replace_callback("#$github_url([a-zA-Z0-9/._-]+)#", function($match
   return $base_path . $path;
 }, $html);
 
+require_once 'lib/template.php';
+
 ?>
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title><?php echo $title; ?></title>
-    <link rel="stylesheet" href="<?php echo $base_path; ?>/lib/styles.css">
-  </head>
-  <body>
-    <div id="page">
-      <?php echo $html; ?>
-    </div>
-  </body>
-</html>
