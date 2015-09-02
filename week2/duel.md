@@ -9,11 +9,13 @@ Before we begin to work on our ASCII art duel, we need to create a place for it 
 * Repository name: `exercise-1-duel`
 * Leave everything else as-is, and click the green __Create repository__ button
 
-![Create a new repository](http://phiffer.org/scripting/week2/images/create-repository.png){.border}
+![Create a new repository](http://phiffer.org/scripting/week2/images/create-repository.jpg){.border}
 
-## Clone your repository
+You can ignore the instructions on the resulting page.
 
-*Note: this part assumes you are using a Mac. If you're using a different operating system, please refer to these instructions about how to clone your repository from the command line.*
+## Sign into GitHub Desktop
+
+*Note: the next two parts assume you are using Mac OS X. If you're using a different operating system (or if your Mac doesn't support GitHub Desktop), skip this section and the next one, and follow GitHub's instructions about [how to clone your repository from the command line](https://help.github.com/articles/cloning-a-repository/).*
 
 * Open GitHub for desktop
 * Skip the setup (close the first window that appears)
@@ -21,7 +23,15 @@ Before we begin to work on our ASCII art duel, we need to create a place for it 
 * Click on the __Accounts__ tab
 * Login with your GitHub username and password
 
-![Sign into GitHub](http://phiffer.org/scripting/week2/images/sign-in.png)
+![Sign into GitHub](http://phiffer.org/scripting/week2/images/sign-in.jpg)
+
+## Clone your repository
+
+* Go to the __File__ menu and choose __Clone repository__
+* Select your `exercise-1-duel` repository from the list and click the __Clone exercise-1-duel__ button
+* Choose a folder to save your work, just be sure you can find it later
+
+![Clone your repository](http://phiffer.org/scripting/week2/images/clone-repository.jpg)
 
 ## Copy this
 
