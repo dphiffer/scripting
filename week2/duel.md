@@ -9,7 +9,7 @@ Before we begin to work on our ASCII art duel, we need to create a place for it 
 * Repository name: `exercise-1-duel`
 * Leave everything else as-is, and click the green __Create repository__ button
 
-![Create a new repository](images/create-repository.png){.border}
+![Create a new repository](http://phiffer.org/scripting/week2/images/create-repository.png){.border}
 
 ## Clone your repository
 
@@ -20,6 +20,8 @@ Before we begin to work on our ASCII art duel, we need to create a place for it 
 * Go to the __GitHub Desktop__ menu and choose __Preferences__
 * Click on the __Accounts__ tab
 * Login with your GitHub username and password
+
+![Sign into GitHub](http://phiffer.org/scripting/week2/images/sign-in.png)
 
 ## Copy this
 
