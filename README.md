@@ -2,7 +2,7 @@
 
 ## Week 2: Tuesday
 
-1. Join the [Google Hangout](https://plus.google.com/hangouts/_/gtrite22isx3tdhwebceaymaf4a?hl=en) (use [Google Chrome](http://www.google.com/chrome/) browser)
+1. Join the Google Hangout (use [Google Chrome](http://www.google.com/chrome/) browser)
 2. Lecture: [What do cows think about?](https://github.com/dphiffer/scripting/blob/fall-2015/week2/tuesday-lecture.html)
 3. Install the [Atom editor](https://atom.io/) and [GitHub desktop app](https://desktop.github.com/)
 4. Reading: [Introduction to JavaScript](http://cdn.oreilly.com/oreilly/booksamplers/9780596805524_sampler.pdf)
