@@ -143,4 +143,4 @@ Go back to the GitHub Desktop app.
 
 If you check your repository on GitHub, you should now see all 3 files.
 
-![Three files](http://phiffer.org/scripting/week2/images/three-files.jpg)
+![Three files](http://phiffer.org/scripting/week2/images/three-files.jpg){.border}
