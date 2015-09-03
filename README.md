@@ -3,10 +3,10 @@
 ## Week 2: Thursday
 
 1. We now have a [new class website](http://phiffer.org/scripting/)!
-2. One person from the class please join the [Google Hangout](https://plus.google.com/hangouts/_/hoaevent/AP36tYeRmSk1N0q6QVlpDoWfjl6acMTAIU-PaI5qF3QKCXawmvqc4Q) and show the video on the classroom screens
+2. One person from the class please join the [Google Hangout](https://www.youtube.com/watch?v=zFdf9co1Lfo) and show the video on the classroom screens
 4. Everybody please login to [Slack](https://im215.slack.com/)
 5. Recap from Tuesday
-6. Excercise: [Preparing for the duel](https://github.com/dphiffer/scripting/blob/fall-2015/week2/duel.md) (due Tuesday Sept 8th, before class)
+6. Exercise: [Preparing for the duel](https://github.com/dphiffer/scripting/blob/fall-2015/week2/duel.md) (due Tuesday Sept 8th, before class)
 
 ## Week 2: Tuesday
 
