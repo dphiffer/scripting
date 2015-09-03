@@ -19,6 +19,13 @@ img {
   height: auto;
 }
 
+pre {
+  padding: 1em;
+  border: 4px solid #dedede;
+  background: #f2f2f2;
+  margin: 1em 0;
+}
+
 .border {
   border: 4px solid #f2f2f2;
 }

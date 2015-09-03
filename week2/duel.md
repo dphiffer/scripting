@@ -4,20 +4,22 @@ In this exercise we are going to create a tiny ASCII art duel. Mostly this will 
 
 ## Create a new repository
 
-To begin our project, we need to create a place on GitHub for it to live; a *repository*. Go to [github.com/new](https://github.com/new) to create a new repository. If you get a 404 page, that just means you need to login to GitHub with your username and password.
+To begin our project, we need to create a place on GitHub for it to live; a *repository*. Go to [github.com/new](https://github.com/new){target=__blank} to create a new repository.
+
+*Note: If you get a 404 page, that just means you need to login to GitHub with your username and password.*
 
 * Repository name: `exercise-1-duel`
 * Leave everything else as-is, and click the green __Create repository__ button
 
 ![Create a new repository](http://phiffer.org/scripting/week2/images/create-repository.jpg){.border}
 
-Once you've created your new repository, GitHub will offer some instructions on how to continue. You can ignore those instructions.
+Once you've created your new repository, GitHub will offer rather elaborate instructions on how to continue. You can ignore those instructions.
 
 ## Setup GitHub Desktop
 
 *Note: this exercise is written with the assumption that you're using Mac OS X with the [GitHub Desktop](https://desktop.github.com/) app and [Atom editor](https://atom.io/) installed. The same instructions should still work if you are using Windows.*
 
-* Open GitHub for desktop
+* Open the GitHub desktop app
 * Click the __Continue__ button to begin
 
 ![GitHub setup](http://phiffer.org/scripting/week2/images/github-setup.jpg)
@@ -35,7 +37,7 @@ Once you've created your new repository, GitHub will offer some instructions on 
 ![Configure GitHub](http://phiffer.org/scripting/week2/images/config.jpg)
 
 * Click the __Continue__ button
-* Click the __Done__ button to finish the setup process
+* Click the __Done__ button to finish the setup process (we don't need to add local repositories on the last setup step)
 
 At this point you will see a window with a "tutorial" repository and some little popup windows. We are going to skip the tutorial and proceed with the exercise.
 
@@ -45,15 +47,17 @@ At this point you will see a window with a "tutorial" repository and some little
 
 Your GitHub desktop app is now ready to use.
 
+![Blank github](http://phiffer.org/scripting/week2/images/github.jpg)
+
 ## Clone your repository
 
 * Go to the __File__ menu and choose __Clone repository__
 * Select your repository from the list and click the __Clone exercise-1-duel__ button
-* Choose a folder to save your work, just be sure you can find it later
+* Choose a folder to save your work, __Documents__ for example, just be sure you can find it later
 
 ![Clone your repository](http://phiffer.org/scripting/week2/images/clone-repository.jpg)
 
-## Set up a new Atom project
+## Setup a new Atom project
 
 * Open the [Atom text editor](https://atom.io/)
 * Go to the __File__ menu and choose __Open__ *(or use the keyboard shortcut ⌘-O)*
@@ -79,11 +83,9 @@ You should see a new entry for `duel1.txt` appear in the project sidebar.
 * Copy the text to your clipboard with the keyboard shortcut __⌘-C__
 
 ```
-
 ~O  O~
 <|/\|>
  |\ |\
-
 ```
 
 ## Paste into your new file
@@ -132,11 +134,9 @@ Go back to Atom editor, where you should still have `duel1.txt` open.
 * Copy and paste this slightly different version of the dueling figures into your text editor:
 
 ```
-
 ~O  O~
 <|--|>
 / \/ \
-
 ```
 
 You should now see two files entries in the project sidebar: `duel1.txt` and `duel2.txt`. Notice that the second one is green, indicating that it's a new file.
@@ -144,11 +144,9 @@ You should now see two files entries in the project sidebar: `duel1.txt` and `du
 * Repeat that process to save a third file called `duel3.txt` with one more iteration of the ASCII duel:
 
 ```
-
 ~O  O~
 <|\/|>
  |\ |\
-
 ```
 
 You should now have three items in your project sidebar. You can switch between them in succession to see a rudimentary animation.
