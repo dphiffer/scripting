@@ -30,6 +30,11 @@
   Katrina
 </a></h2>
 
+<h2><a href="https://github.com/msgal97">
+  <img src="https://avatars0.githubusercontent.com/u/14073953?v=3&s=100" width="50" height="50" alt="msgal97">
+  Katy
+</a></h2>
+
 <h2><a href="https://github.com/IntroToScriptingLanguages">
   <img src="https://avatars1.githubusercontent.com/u/14020926?v=3&s=100" width="50" height="50" alt="IntroToScriptingLanguages">
   Leo
