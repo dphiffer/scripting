@@ -5,6 +5,11 @@
   Andrei
 </a></h2>
 
+<h2><a href="https://github.com/brandondadam">
+  <img src="https://avatars3.githubusercontent.com/u/7631485?v=3&s=100" width="50" height="50" alt="brandondadam">
+  Brandon
+</a></h2>
+
 <h2><a href="https://github.com/ianjmccauley">
   <img src="https://avatars0.githubusercontent.com/u/7631489?v=3&s=100" width="50" height="50" alt="ianjmccauley">
   Ian
