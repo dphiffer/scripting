@@ -1,29 +1,49 @@
-# Exercise: The duel
+# Exercise: preparing for the duel
 
-In this exercise we are going to create a tiny ASCII art duel. Mostly this will serve as a chance to learn how to use GitHub to save things.
+In this exercise we are going to create a tiny ASCII art duel. Mostly this will serve as a chance to learn how to use GitHub to save things. Git and GitHub are a little tricky to figure out at first, but they will become more natural with frequent use.
 
 ## Create a new repository
 
-Before we begin to work on our ASCII art duel, we need to create a place for it to live on GitHub. Go to [github.com/new](https://github.com/new) to create a new repository. You may need to login if you haven't already.
+To begin our project, we need to create a place on GitHub for it to live; a *repository*. Go to [github.com/new](https://github.com/new) to create a new repository. If you get a 404 page, that just means you need to login to GitHub with your username and password.
 
 * Repository name: `exercise-1-duel`
 * Leave everything else as-is, and click the green __Create repository__ button
 
 ![Create a new repository](http://phiffer.org/scripting/week2/images/create-repository.jpg){.border}
 
-You can ignore the instructions on the resulting page.
+Once you've created your new repository, GitHub will offer some instructions on how to continue. You can ignore those instructions.
 
-## Sign into GitHub Desktop
+## Setup GitHub Desktop
 
-*Note: the next two parts assume you are using Mac OS X. If you're using a different operating system (or if your Mac doesn't support GitHub Desktop), skip this section and the next one, and follow GitHub's instructions about [how to clone your repository from the command line](https://help.github.com/articles/cloning-a-repository/).*
+*Note: this exercise is written with the assumption that you're using Mac OS X with the [GitHub Desktop](https://desktop.github.com/) app and [Atom editor](https://atom.io/) installed. The same instructions should still work if you are using Windows.*
 
 * Open GitHub for desktop
-* Skip the setup (close the first window that appears)
-* Go to the __GitHub Desktop__ menu and choose __Preferences__
-* Click on the __Accounts__ tab
-* Login with your GitHub username and password
+* Click the __Continue__ button to begin
+
+![GitHub setup](http://phiffer.org/scripting/week2/images/github-setup.jpg)
+
+* Type in your GitHub username and password and then click the __Sign In__ button
+* Click the __Continue__ button
 
 ![Sign into GitHub](http://phiffer.org/scripting/week2/images/sign-in.jpg)
+
+* Enter your name and email address
+* Click the button that says __Install Command Line Tools__
+
+*Note: if you already have the `git` command line tools installed, the button may appear grayed out to you.*
+
+![Configure GitHub](http://phiffer.org/scripting/week2/images/config.jpg)
+
+* Click the __Continue__ button
+* Click the __Done__ button to finish the setup process
+
+At this point you will see a window with a "tutorial" repository and some little popup windows. We are going to skip the tutorial and proceed with the exercise.
+
+![GitHub tutorial](http://phiffer.org/scripting/week2/images/tutorial.jpg)
+
+* Right-click on the "tutorial" repository on the left and choose __Remove__
+
+Your GitHub desktop app is now ready to use.
 
 ## Clone your repository
 
@@ -101,7 +121,7 @@ At this point you have a commit stored on your local computer, but it hasn't bee
 * Look for the box labeled "Your repositories" and click on `exercise-1-duel`
 * Click on `duel1.txt` to confirm that your dueling stick figures are there
 
-![GitHub duel text](http://phiffer.org/scripting/week2/images/github-duel-txt.jpg)
+![GitHub duel text](http://phiffer.org/scripting/week2/images/github-duel-txt.jpg){.border}
 
 ## Create more copies
 
@@ -144,3 +164,10 @@ Go back to the GitHub Desktop app.
 If you check your repository on GitHub, you should now see all 3 files.
 
 ![Three files](http://phiffer.org/scripting/week2/images/three-files.jpg){.border}
+
+## All done!
+
+Congratulations, you've created your first GitHub repository. If you'd like to read more about how this all works, check out:
+
+* [Try Git](https://try.github.io/)
+* [GitHub Help](https://help.github.com/)
