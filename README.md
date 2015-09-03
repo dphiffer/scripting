@@ -1,11 +1,19 @@
 # Intro to Scripting Languages
 
+## Week 2: Thursday
+
+1. We now have a [new class website](http://phiffer.org/scripting/)!
+2. One person from the class please join the [Google Hangout](https://plus.google.com/hangouts/_/hoaevent/AP36tYeRmSk1N0q6QVlpDoWfjl6acMTAIU-PaI5qF3QKCXawmvqc4Q) and show the video on the classroom screens
+4. Everybody please login to [Slack](https://im215.slack.com/)
+5. Recap from Tuesday
+6. Excercise: [Preparing for the duel](https://github.com/dphiffer/scripting/blob/fall-2015/week2/duel.md) (due Tuesday Sept 8th, before class)
+
 ## Week 2: Tuesday
 
 1. Join the Google Hangout (use [Google Chrome](http://www.google.com/chrome/) browser)
 2. Lecture: [What do cows think about?](https://github.com/dphiffer/scripting/blob/fall-2015/week2/tuesday-lecture.html)
 3. Install the [Atom editor](https://atom.io/) and [GitHub desktop app](https://desktop.github.com/)
-4. Reading: [Introduction to JavaScript](http://cdn.oreilly.com/oreilly/booksamplers/9780596805524_sampler.pdf)
+4. Reading: [Introduction to JavaScript](http://cdn.oreilly.com/oreilly/booksamplers/9780596805524_sampler.pdf) (we will discuss on Tuesday Sept 8th)
 5. Send me your GitHub username via email
 
 ## Week 1
