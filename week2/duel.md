@@ -142,3 +142,5 @@ Go back to the GitHub Desktop app.
 * Now click on the __Sync__ button to upload your second commit to GitHub
 
 If you check your repository on GitHub, you should now see all 3 files.
+
+![Three files](http://phiffer.org/scripting/week2/images/three-files.jpg)
