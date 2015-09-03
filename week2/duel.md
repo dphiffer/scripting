@@ -80,14 +80,16 @@ You may notice a little blue dot disappear from the tab, indicating you no longe
 
 Go to the GitHub Desktop app, it should have noticed your file.
 
-* Type a short description of your change into the "Summary" text box next to your user icon (e.g., "Added dueling figures"), including descriptive commit messages is a good habit
+* Type a short description of your change into the "Summary" text box next to your user icon (e.g., "Added dueling figures")
 * Click the __Commit to master__ button
 
 ![Commit message](http://phiffer.org/scripting/week2/images/commit-message.jpg)
 
+The amount of description you give to your commits effects how easily you can decipher your work later on. Try to be reasonably descriptive with your commit messages.
+
 ## Publish your commit
 
-At this point you have a commit stored on your local computer, but it hasn't been uploaded to GitHub yet. By decoupling those two actions, it makes it much easier to work offline, when you may not be able to immediately send your changes to a central server.
+At this point you have a commit stored on your local computer, but it hasn't been uploaded to GitHub yet. By decoupling those two actions, `git` makes it much easier to work offline, when you may not be able to immediately send your changes to a central server.
 
 * Click the __Publish__ button in the top right
 
@@ -100,3 +102,43 @@ At this point you have a commit stored on your local computer, but it hasn't bee
 * Click on `duel1.txt` to confirm that your dueling stick figures are there
 
 ![GitHub duel text](http://phiffer.org/scripting/week2/images/github-duel-txt.jpg)
+
+## Create more copies
+
+Go back to Atom editor, where you should still have `duel1.txt` open.
+
+* Go to the __File__ menu and choose __Save As__
+* Choose the name `duel2.txt` and click the __Save__ button
+* Copy and paste this slightly different version of the dueling figures into your text editor:
+
+```
+
+~O  O~
+<|--|>
+/ \/ \
+
+```
+
+You should now see two files entries in the project sidebar: `duel1.txt` and `duel2.txt`. Notice that the second one is green, indicating that it's a new file.
+
+* Repeat that process to save a third file called `duel3.txt` with one more iteration of the ASCII duel:
+
+```
+
+~O  O~
+<|\/|>
+ |\ |\
+
+```
+
+You should now have three items in your project sidebar. You can switch between them in succession to see a rudimentary animation.
+
+## Commit your copies
+
+Go back to the GitHub Desktop app.
+
+* Click on the tab that says "2 Uncommitted Changes" and you should see your new files
+* Add another commit message and click the __Commit to master__ button
+* Now click on the __Sync__ button to upload your second commit to GitHub
+
+If you check your repository on GitHub, you should now see all 3 files.
