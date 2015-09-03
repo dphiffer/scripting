@@ -5,6 +5,11 @@
   Andrei
 </a></h2>
 
+<h2><a href="https://github.com/ianjmccauley">
+  <img src="https://avatars0.githubusercontent.com/u/7631489?v=3&s=100" width="50" height="50" alt="ianjmccauley">
+  Ian
+</a></h2>
+
 <h2><a href="https://github.com/GigaJake">
   <img src="https://avatars1.githubusercontent.com/u/9859830?v=3&s=100" width="50" height="50" alt="GigaJake">
   Jake
