@@ -33,7 +33,7 @@ You can ignore the instructions on the resulting page.
 
 ![Clone your repository](http://phiffer.org/scripting/week2/images/clone-repository.jpg)
 
-## Set up Atom editor
+## Set up a new Atom project
 
 * Open the [Atom text editor](https://atom.io/)
 * Go to the __File__ menu and choose __Open__ *(or use the keyboard shortcut ⌘-O)*
@@ -78,6 +78,25 @@ You may notice a little blue dot disappear from the tab, indicating you no longe
 
 ## Commit your change
 
-*Note: if you are not using the GitHub Desktop app, follow the instructions about [how to commit your changes using the command line]().*
+Go to the GitHub Desktop app, it should have noticed your file.
 
-* Go to the GitHub Desktop app
+* Type a short description of your change into the "Summary" text box next to your user icon (e.g., "Added dueling figures"), including descriptive commit messages is a good habit
+* Click the __Commit to master__ button
+
+![Commit message](http://phiffer.org/scripting/week2/images/commit-message.jpg)
+
+## Publish your commit
+
+At this point you have a commit stored on your local computer, but it hasn't been uploaded to GitHub yet. By decoupling those two actions, it makes it much easier to work offline, when you may not be able to immediately send your changes to a central server.
+
+* Click the __Publish__ button in the top right
+
+![Publish commit](http://phiffer.org/scripting/week2/images/publish-commit.jpg)
+
+## Check that your changes are on GitHub
+
+* Go to [github.com](https://github.com/)
+* Look for the box labeled "Your repositories" and click on `exercise-1-duel`
+* Click on `duel1.txt` to confirm that your dueling stick figures are there
+
+![GitHub duel text](http://phiffer.org/scripting/week2/images/github-duel-txt.jpg)
