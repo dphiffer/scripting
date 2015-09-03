@@ -10,6 +10,11 @@
   Brandon
 </a></h2>
 
+<h2><a href="https://github.com/cjsams">
+  <img src="https://avatars3.githubusercontent.com/u/10637661?v=3&s=100" width="50" height="50" alt="cjsams">
+  Caleb
+</a></h2>
+
 <h2><a href="https://github.com/ianjmccauley">
   <img src="https://avatars0.githubusercontent.com/u/7631489?v=3&s=100" width="50" height="50" alt="ianjmccauley">
   Ian
