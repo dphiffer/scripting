@@ -28,7 +28,7 @@ if (!file_exists($dir)) {
 
 $max_width = 0;
 foreach ($users as $user => $name) {
-  $label   = "$name ($user)";
+  $label = "$name ($user)";
   if (strlen($label) > $max_width) {
     $max_width = strlen($label);
   }
