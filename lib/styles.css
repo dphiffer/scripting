@@ -111,6 +111,19 @@ ul li {
   list-style: square;
 }
 
+dl dt {
+  font-family: source_sans_pro_bold, sans-serif;
+  margin: 1em 0 0.25em 0;
+}
+
+dl dt em {
+  font-family: source_sans_pro_bold_italic, sans-serif;
+}
+
+dl dd {
+  margin-left: 1.5em;
+}
+
 .small, small {
   text-transform: uppercase;
   font-size: 14px;
@@ -121,7 +134,6 @@ ul li {
 nav a {
   text-decoration: none;
 }
-
 
 nav a:hover {
   text-decoration: underline;
