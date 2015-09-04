@@ -3,11 +3,11 @@
 A basic PHP/Markdown website generated from a GitHub repository. Kind of in the spirit of [GitHub Pages](https://pages.github.com/), except you host the files on your own server.
 
 1. Fork this repo
-2. Add your own Markdown files (save them with .md file extensions)
-3. Edit `index.php`  
+2. Edit `index.php`  
     * Set `$base_path` to match the URL path where the site is hosted (e.g., `/` or `/my-project`)
     * Set the default `$title`
-4. Edit `header.md` and `footer.md`
+3. Replace `README.md` and add your own Markdown files (save them with .md file extensions)
+4. Edit `header.md` and `footer.md` to set the header & footer
 5. Edit `styles.css` as desired
 6. Clone the repo onto your web server
 
