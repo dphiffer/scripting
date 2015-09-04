@@ -1,5 +1,6 @@
 @import url(fonts/sourcesanspro.css);
 @import url(reset.css);
+@import url(../styles.css);
 
 body {
   font-family: source_sans_pro_regular, sans-serif;

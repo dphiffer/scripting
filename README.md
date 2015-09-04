@@ -1,26 +1,35 @@
-# Intro to Scripting Languages
+# Scripting template
 
-## Week 2: Thursday
+A basic PHP/Markdown website generated from a GitHub repository. Kind of in the spirit of [GitHub Pages](https://pages.github.com/), except you host the files on your own server.
 
-1. We now have a [new class website](http://phiffer.org/scripting/)!
-2. One person from the class please join the [Google Hangout](https://www.youtube.com/watch?v=zFdf9co1Lfo) and show the video on the classroom screens
-4. Everybody please login to [Slack](https://im215.slack.com/)
-5. Recap from Tuesday
-6. Exercise: [Preparing for the duel](http://phiffer.org/scripting/week2/duel) (due Tuesday Sept 8th, before class)
+1. Fork this repo
+2. Add your own Markdown files (save them with .md file extensions)
+3. Edit `index.php`  
+    * Set `$base_path` to match the URL path where the site is hosted (e.g., `/` or `/my-project`)
+    * Set the default `$title`
+4. Edit `header.md` and `footer.md`
+5. Edit `styles.css` as desired
+6. Clone the repo onto your web server
 
-## Week 2: Tuesday
+## URLs
 
-1. Join the Google Hangout (use [Google Chrome](http://www.google.com/chrome/) browser)
-2. Lecture: [What do cows think about?](http://phiffer.org/scripting/week2/tuesday-lecture.html)
-3. Install the [Atom editor](https://atom.io/) and [GitHub desktop app](https://desktop.github.com/)
-4. Reading: [Introduction to JavaScript](http://cdn.oreilly.com/oreilly/booksamplers/9780596805524_sampler.pdf) (we will discuss on Tuesday Sept 8th)
-5. Send me your GitHub username via email
+Let's say you clone to a folder hosted at `http://example.horse/website`.
 
-## Week 1
+1. `README.md` is the homepage, available from `http://example.horse/website/`
+2. A file called `foo.md` is available from `http://example.horse/website/foo`
+3. `subdirectory/bar.md` is `http://example.horse/website/subdirectory/bar`
+4. `baz.html` is http://example.horse/website/baz
 
-1. Review the [course syllabus](http://phiffer.org/scripting/syllabus).
-2. [Set up a (free) GitHub account](https://github.com/join) if you don't already have one.
-3. [Set up a Google Plus account](https://plus.google.com/) if you don't already have one.
-4. [Fill out the student survey](https://docs.google.com/forms/d/1v3zCvcZYKljpOYQ9-rX6-kKjOvnkCl6d8i0qduojEbo/viewform?usp=send_form).
-5. [Watch Clay Shirky's TED talk](http://www.ted.com/talks/clay_shirky_how_the_internet_will_one_day_transform_government?language=en).
-6. Grab a copy of [JavaScript: The Definitive Guide (6th Edition)](http://shop.oreilly.com/product/9780596805531.do) if you haven't already.
+## Auto-update
+
+You can set up your website to update automatically whenever you push new commits up to GitHub.
+
+1. Go to your repository's settings page:  
+    `https://github.com/[username]/[repo]/settings`
+2. Click on the __Webhooks & services__ tab
+3. Click the __Add webhook__ button
+4. Enter the URL for your website
+5. Switch the Content type to "application/x-www-form-urlencoded"
+6. You don't need a secret, and you only need "just the push event."
+7. Check the __Active__ checkbox
+8. Click the __Add webhook__ button
