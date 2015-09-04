@@ -9,15 +9,23 @@
   </head>
   <body>
     <div id="page" class="<?php echo $page_class; ?>">
-      <header>
-        <?php require_once 'header.php'; ?>
-      </header>
+      <?php if (!empty($header_html)) { ?>
+        <header>
+          <nav class="small">
+            <?php echo $header_html ?>
+          </nav>
+        </header>
+      <?php } ?>
       <article id="main">
         <?php echo $html; ?>
       </article>
-      <footer>
-        <?php require_once 'footer.php'; ?>
-      </footer>
+      <?php if (!empty($footer_html)) { ?>
+        <footer>
+          <nav>
+            <?php echo $footer_html ?>
+          </nav>
+        </footer>
+      <?php } ?>
     </div>
   </body>
 </html>

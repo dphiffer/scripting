@@ -4,8 +4,8 @@ Week 1 (8/27)
 :   *Missed*
 
 Week 2 (9/1, 9/3)
-:   [Lecture: Plain Text](https://github.com/dphiffer/scripting/blob/fall-2015/week2/tuesday-lecture.html)  
-    [Exercise: *Preparing for the duel*](https://github.com/dphiffer/scripting/blob/fall-2015/week2/duel.md)  
+:   [Lecture: Plain Text](http://phiffer.org/scripting/week2/tuesday-lecture.html)  
+    [Exercise: *Preparing for the duel*](http://phiffer.org/scripting/week2/duel)  
     Reading: *1. Introduction to JavaScript*
 
 Week 3 (9/8, 9/10)

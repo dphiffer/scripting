@@ -29,7 +29,8 @@ function git_current_branch ($cwd) {
   }
 }
 
-// GitHub will hit us with POST (http://help.github.com/post-receive-hooks/)
+// GitHub will hit us with POST
+// https://developer.github.com/webhooks/
 if (!empty($_POST['payload'])) {
 
   $cwd = dirname(__DIR__);
