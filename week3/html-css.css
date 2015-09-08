@@ -1,0 +1,14 @@
+.box-model-example {
+  position: absolute;
+  left: 470px;
+  top: 287px;
+}
+
+.box-model-example .box {
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  border: 5px solid #ccc;
+  margin: 15px;
+  background: #efefef;
+}
