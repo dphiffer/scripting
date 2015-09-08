@@ -2,10 +2,11 @@
 
 ## Week 3: Tuesday
 
-1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://plus.google.com/hangouts/_/hoaevent/AP36tYfnjFORnfX8KcKauhE_HxkaezeIBxE2MbCh-qvaO0hiCaTfVQ)
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=US9D5PU-4Rs) ([CodePen example](http://codepen.io/anon/pen/VvLXgL))
 2. Reading discussion
 3. Lecture: [Intro to HTML + CSS](http://phiffer.org/scripting/week3/html-css)
-4. Exercise: [preparing for the duel (part 2)](http://phiffer.org/scripting/week3/duel)
+4. Exercise: [preparing for the duel (part 2)](http://phiffer.org/scripting/week3/duel) (due Thursday, 9/10)
+5. Reading: *Chapter 3. Types, Values, and Variables* (discuss Tuesday, 9/15)
 
 ## Week 2: Thursday
 
