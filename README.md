@@ -2,7 +2,7 @@
 
 ## Week 3: Tuesday
 
-1. Join the [Google Hangout](https://plus.google.com/hangouts/_/hoaevent/AP36tYfnjFORnfX8KcKauhE_HxkaezeIBxE2MbCh-qvaO0hiCaTfVQ)
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://plus.google.com/hangouts/_/hoaevent/AP36tYfnjFORnfX8KcKauhE_HxkaezeIBxE2MbCh-qvaO0hiCaTfVQ)
 2. Reading discussion
 3. Lecture: [Intro to HTML + CSS](http://phiffer.org/scripting/week3/html-css)
 4. Exercise: [preparing for the duel (part 2)](http://phiffer.org/scripting/week3/duel)
