@@ -16,7 +16,7 @@ $users = array(
 );
 
 if (empty($argv[1])) {
-  echo "Usage: test.php week[n]\n";
+  echo "Usage: test.php week1\n";
   exit(1);
 }
 
