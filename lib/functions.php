@@ -22,13 +22,17 @@ function get_partial($name) {
 }
 
 // Sets page title based on global $title and the page's first <h1>
-function get_title($title, $html, $separator = ' / ') {
-  // Use the first <h1> as the page title
-  if (preg_match('#<h1>(.+?)</h1>#', $html, $matches)) {
-    if ($matches[1] != $title) {
-      // Keep the site-wide title, after the page title
-      $title = "{$matches[1]}{$separator}{$title}";
-    }
+function get_title($base_title, $html, $properties, $title_sep) {
+  if (isset($properties['title'])) {
+    // Content has set a title property
+    $title = trim($properties['title']);
+  } else if (preg_match('#<h1>(.+?)</h1>#', $html, $matches)) {
+    // Use the first <h1> as the page title
+    $title = trim($matches[1]);
+  }
+  if ($title != $base_title) {
+    // Keep the site-wide title, after the page title
+    $title = "{$title}{$title_sep}{$base_title}";
   }
   return $title;
 }
@@ -48,6 +52,43 @@ END;
     }
   }
   return $html;
+}
+
+function get_markdown($filename) {
+  if (substr($filename, -3, 3) != '.md') {
+    return null;
+  }
+  $markdown = file_get_contents($filename);
+  $markdown = strip_properties($markdown);
+  return $markdown;
+}
+
+function get_properties($html) {
+  $properties = array();
+  $valid_keys = array(
+    'template',
+    'title'
+  );
+  if (preg_match('/<\!--(.+?)-->/ms', $html, $matches)) {
+    $comment_block = $matches[1];
+    preg_match_all('/^(.+?):(.+)$/m', $comment_block, $matches);
+    foreach ($matches[1] as $index => $key) {
+      $key   = strtolower(trim($key));
+      $value = trim($matches[2][$index]);
+      if (in_array($key, $valid_keys)) {
+        $properties[$key] = $value;
+      }
+    }
+  }
+  return $properties;
+}
+
+function strip_properties($text) {
+  $text = trim($text);
+  if (substr($text, 0, 4) == '<!--') {
+    $text = preg_replace('/<\!--(.+?)-->/ms', '', $text, 1);
+  }
+  return $text;
 }
 
 // Returns a filename based on the request URL
@@ -76,4 +117,21 @@ function get_filename($base_path) {
     }
   }
   return $filename;
+}
+
+function get_stylesheet($filename) {
+  $base_name = preg_replace('/^(.+)\.\w+$/', '$1', $filename);
+  if (file_exists("$base_name.css")) {
+    return "$base_name.css";
+  } else {
+    return '';
+  }
+}
+
+function stylesheets() {
+  global $base_path, $stylesheet, $template;
+  echo "<link rel=\"stylesheet\" href=\"$base_path/$stylesheet\">\n";
+  if (!empty($stylesheet)) {
+    echo "<link rel=\"stylesheet\" href=\"$base_path/$stylesheet\">\n";
+  }
 }

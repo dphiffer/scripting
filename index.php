@@ -1,30 +1,31 @@
 <?php
 
+// Base config
+$base_title = 'Introduction to Scripting Languages';
+$base_path  = '/scripting';
+$template   = 'main.php';
+$title_sep  = ' / ';
+
 // Update from GitHub webhook
 require_once 'lib/update.php';
 
 // Helper functions
 require_once 'lib/functions.php';
 
-// Base config
-$title = 'Introduction to Scripting Languages';
-$base_path = '/scripting';
-
 // Determine the filename based on the URL
 $filename = get_filename($base_path);
+$stylesheet = get_stylesheet($filename);
 
-// Get the HTML and page title
+// Get the HTML and Markdown (if there is Markdown)
 $html  = get_html($filename);
-$title = get_title($title, $html);
+$markdown = get_markdown($filename);
 
-// Get header/footer HTML
-$header_html = get_partial('header');
-$footer_html = get_partial('footer');
+// Set up the title and other properties
+$properties = get_properties($html);
+extract($properties);
+$title = get_title($base_title, $html, $properties, $title_sep);
 
-// Class for page-specific CSS
-$page_class = strtolower(preg_replace('/[^a-zA-Z-]+/', '-', $filename));
-
-// Kick off the page template
-require_once 'lib/template.php';
+// Let's goooo!!
+require_once "templates/$template";
 
 ?>

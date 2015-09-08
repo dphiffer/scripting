@@ -1,3 +1,8 @@
+<!--
+
+Title: Preparing for the duel
+
+-->
 # Exercise: preparing for the duel
 
 In this exercise we are going to create a tiny ASCII art duel. Mostly this will serve as a chance to learn how to use GitHub to save things. Git and GitHub are a little tricky to figure out at first, but they will become more natural with frequent use.

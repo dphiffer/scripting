@@ -6,36 +6,38 @@ Week 1 (8/27)
 Week 2 (9/1, 9/3)
 :   [Lecture: Plain Text](http://phiffer.org/scripting/week2/tuesday-lecture.html)  
     [Exercise: *Preparing for the duel*](http://phiffer.org/scripting/week2/duel)  
-    Reading: *1. Introduction to JavaScript*
+    Reading: *Chapter 1. Introduction to JavaScript*
 
 Week 3 (9/8, 9/10)
-:   Quiz 1  
-    Lecture: Intro to HTML and CSS  
-    Reading: *3. Types, Values, and Variables*  
-    Lecture: Intro to JavaScript  
+:   Lecture: Intro to HTML + CSS
+    Exercise: *Preparing for the duel (part 2)*
+    Lecture: Intro to JavaScript
     Project: The Duel
+    Reading: *Chapter 3. Types, Values, and Variables*
 
 Week 4 (9/15, 9/17)
 :   Exercise: Single Serving Wiki  
-    Reading: *5. Statements*  
     Lecture: Conditionals and Loops  
-    Guest lecture
+    Guest lecture  
+    Reading: *Chapter 5. Statements*  
 
 Week 5 (9/22, 9/24)
 :   Project: The Tiniest Wiki  
-    Reading: *7. Arrays*
+    Reading: *Chapter 6. Objects*
 
 Week 6 (9/29, 10/1)
 :   Exercise 3  
-    Reading: *8. Functions*  
     Lecture: Intro to MySQL  
     Quiz 2
+    Reading: *Chapter 7. Arrays*
 
 Week 7 (10/6, 10/8)
 :   Project: DIY CMS
+    Reading: *Chapter 8. Functions*
 
 Week 8 (10/15) *no class 10/13*
 :   Exercise 4
+    Reading: *Chapter 9. Classes and Modules*
 
 Week 9 (10/20, 10/22)
 :   Midterm  

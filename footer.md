@@ -23,6 +23,7 @@
     <li><a href="https://color.adobe.com/explore/most-popular/?time=week">Adobe Popular Colors</a></li>
     <li><a href="http://colourlovers.com/">Colour Lovers</a></li>
     <li><a href="http://paletton.com/">Paletton</a></li>
+    <li><a href="http://www.colorzilla.com/gradient-editor/">Ultimate CSS Gradient Generator</a></li>
   </ul>
 </div>
 <div class="column">
@@ -63,5 +64,6 @@
     <li><a href="https://developer.mozilla.org/en-US/docs/Web">Mozilla Developer Network</a></li>
     <li><a href="http://quirksmode.org/">Quirksmode</a></li>
     <li><a href="http://www.w3.org/Consortium/activities">World Wide Web Consortium</a></li>
+    <li><a href="http://www.w3schools.com/">W3Schools</a></li>
   </ul>
 </div>
