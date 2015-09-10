@@ -1,6 +1,6 @@
 # Intro to Scripting Languages
 
-## Week 4: Thursday
+## Week 3: Thursday
 
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=WJWWV14uz2E)
 2. Discuss Tuesday's exercise
