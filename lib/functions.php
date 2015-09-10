@@ -34,6 +34,7 @@ function get_title($base_title, $html, $properties, $title_sep) {
     // Keep the site-wide title, after the page title
     $title = "{$title}{$title_sep}{$base_title}";
   }
+  $title = strip_tags($title);
   return $title;
 }
 

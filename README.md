@@ -1,5 +1,12 @@
 # Intro to Scripting Languages
 
+## Week 4: Thursday
+
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://plus.google.com/hangouts/_/hoaevent/AP36tYc340NCAB8n50ZppyauwcJ6tbZi7s33B0YsreiNKbNg8MjTpA)
+2. Discuss Tuesday's exercise
+3. Lecture: [Intro to JavaScript + DOM](week3/js-dom)
+4. Project: [*The Duel*](project1/duel) (due Thursday, 9/17)
+
 ## Week 3: Tuesday
 
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=US9D5PU-4Rs) ([CodePen example](http://codepen.io/anon/pen/VvLXgL))

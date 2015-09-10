@@ -30,6 +30,24 @@ pre {
   border: 4px solid #f2f2f2;
 }
 
+.button {
+  display: inline-block;
+  font-family: source_sans_pro_bold, sans-serif;
+  padding: 1em;
+  color: #fff;
+  margin-top: 1.5em;
+  border: 2px solid #3cf;
+  background: #09c;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.5s background;
+}
+
+.button:hover {
+  background: #3cf;
+  color: #fff;
+}
+
 i, em {
   font-family: source_sans_pro_italic, sans-serif;
   font-style: normal;

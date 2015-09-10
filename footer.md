@@ -42,7 +42,7 @@
     <li><a href="http://csslint.net/">CSS Lint</a></li>
     <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
     <li><a href="http://www.jslint.com/">JS Lint</a></li>
-    <li><a href="https://validator.nu/">Validator.nu</a></li>
+    <li><a href="https://validator.w3.org/">Markup Validation Service</a></li>
   </ul>
 </div>
 <div class="column">

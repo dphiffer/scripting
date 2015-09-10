@@ -41,6 +41,17 @@ h1 em strong, h2 em strong, h3 em strong, h4 em strong {
   font-family: source_sans_pro_italic, sans-serif;
 }
 
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.border {
+  border: 4px solid #f2f2f2;
+  display: block;
+}
+
 .remark-slide-content a {
   color: #09c;
 }

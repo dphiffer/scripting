@@ -289,7 +289,6 @@ layout: true
 
 layout: false
 
-# Coming up
+# Next time
 
-* Intro to JavaScript
-* CSS Positioning
+* [Intro to JavaScript + DOM](js-dom)
