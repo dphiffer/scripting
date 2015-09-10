@@ -17,7 +17,7 @@ You should see your files in the project sidebar.
 
 ## Markup Validator Service
 
-* Go to the [W3C Validator](https://validator.w3.org/)
+* Go to the [W3C Validator](https://validator.w3.org/){target=_blank}
 * Click on the third tab, __Validate by Direct Input__
 * __Paste__ your HTML text into the input
 * Click the __Check__ button
