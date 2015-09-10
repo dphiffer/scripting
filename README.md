@@ -2,9 +2,9 @@
 
 ## Week 4: Thursday
 
-1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://plus.google.com/hangouts/_/hoaevent/AP36tYc340NCAB8n50ZppyauwcJ6tbZi7s33B0YsreiNKbNg8MjTpA)
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=WJWWV14uz2E)
 2. Discuss Tuesday's exercise
-3. Lecture: [Intro to JavaScript + DOM](week3/js-dom)
+3. Lecture: [Intro to JavaScript + DOM](week3/js-dom) ([CodePen example](http://codepen.io/anon/pen/WQQRXR))
 4. Project: [*The Duel*](project1/duel) (due Thursday, 9/17)
 
 ## Week 3: Tuesday
