@@ -1,5 +1,12 @@
 # Intro to Scripting Languages
 
+## Week 4: Tuesday
+
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://plus.google.com/hangouts/_/hoaevent/AP36tYefBNKs85OqsBySx-OuQtAze1NGAX0F7tQRDJ0DdDtD26vWsg)
+2. Quiz!
+3. Discuss JavaScript reading
+4. Project critiques
+
 ## Week 3: Thursday
 
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=WJWWV14uz2E)
