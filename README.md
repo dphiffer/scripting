@@ -3,7 +3,7 @@
 ## Week 4: Tuesday
 
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://plus.google.com/hangouts/_/hoaevent/AP36tYefBNKs85OqsBySx-OuQtAze1NGAX0F7tQRDJ0DdDtD26vWsg)
-2. Quiz!
+2. [Quiz](https://docs.google.com/forms/d/1oLg3wzWZKC-onRccAb9JQVQVkobSNfzkeF9NurC7fno/viewform?usp=send_form#start=invite)!
 3. Discuss JavaScript reading
 4. Project critiques
 
