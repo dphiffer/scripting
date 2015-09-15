@@ -6,6 +6,7 @@
 2. [Quiz](https://docs.google.com/forms/d/1oLg3wzWZKC-onRccAb9JQVQVkobSNfzkeF9NurC7fno/viewform?usp=send_form#start=invite)!
 3. Discuss JavaScript reading
 4. Project critiques
+5. Reading: *Chapter 5. Statements*
 
 ## Week 3: Thursday
 
