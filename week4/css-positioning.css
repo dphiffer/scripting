@@ -1,0 +1,31 @@
+.box-model-example {
+  position: absolute;
+  left: 470px;
+  top: 287px;
+}
+
+.box-model-example .box {
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  border: 5px solid #ccc;
+  margin: 15px;
+  background: #efefef;
+}
+
+.box-sizing-example {
+	width: 320px;
+	height: 200px;
+	border: 5px solid #ccc;
+	overflow: hidden;
+}
+
+.box-sizing-example .content {
+	width: 100%;
+	padding: 25px;
+	font-size: 14px;
+}
+
+.border-box-example .content {
+	box-sizing: border-box;
+}

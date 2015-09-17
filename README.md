@@ -1,8 +1,16 @@
 # Intro to Scripting Languages
 
+## Week 4: Thursday
+
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://plus.google.com/hangouts/_/hoaevent/AP36tYfRJwh7r4Wvow3WKdtWl0bloETInctbYdSzwDtGl9Ys2PQpAw)
+2. More project critiques
+3. Lecture: [CSS Positioning](/scripting/week4/css-positioning)
+4. Exercise: [What?](https://github.com/dphiffer/exercise-3-what)
+5. An additional reading! [The Library of Babel](https://archive.org/stream/TheLibraryOfBabel/babel_djvu.txt)
+
 ## Week 4: Tuesday
 
-1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://plus.google.com/hangouts/_/hoaevent/AP36tYefBNKs85OqsBySx-OuQtAze1NGAX0F7tQRDJ0DdDtD26vWsg)
+1. Please login to [Slack](https://im215.slack.com/) and join the Google Hangout
 2. [Quiz](https://docs.google.com/forms/d/1oLg3wzWZKC-onRccAb9JQVQVkobSNfzkeF9NurC7fno/viewform?usp=send_form#start=invite)!
 3. Discuss JavaScript reading
 4. Project critiques
