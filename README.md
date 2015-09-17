@@ -5,8 +5,8 @@
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://plus.google.com/hangouts/_/hoaevent/AP36tYfRJwh7r4Wvow3WKdtWl0bloETInctbYdSzwDtGl9Ys2PQpAw)
 2. More project critiques
 3. Lecture: [CSS Positioning](/scripting/week4/css-positioning)
-4. Exercise: [What?](https://github.com/dphiffer/exercise-3-what)
-5. An additional reading! [The Library of Babel](https://archive.org/stream/TheLibraryOfBabel/babel_djvu.txt)
+4. Exercise: [What?](https://github.com/dphiffer/exercise-3-what) (due Tuesday, 9/22)
+5. An additional reading! [The Library of Babel](https://archive.org/stream/TheLibraryOfBabel/babel_djvu.txt) (discuss Thursday, 9/24)
 
 ## Week 4: Tuesday
 
