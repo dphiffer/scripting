@@ -45,7 +45,15 @@ function test_download($url, $dir) {
 function test_files($dir, $files) {
   $contents = array();
   foreach ($files as $var => $filename) {
-    if (!file_exists("$dir/$filename")) {
+		if (strpos($filename, '*') !== false) {
+			$matches = glob("$dir/$filename");
+			print_r($matches);
+			if (empty($matches)) {
+				echo "FAIL: file $filename not found\n";
+	      exit(1);
+			}
+			$filename = basename($matches[0]);
+		} else if (!file_exists("$dir/$filename")) {
       echo "FAIL: file $filename not found\n";
       exit(1);
     }
