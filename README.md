@@ -1,10 +1,17 @@
 # Intro to Scripting Languages
 
+## Week 5: Tuesday
+
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/qnhr6ixrohgykvf66ugrlkln2ua)
+2. Discuss exercise 1
+3. Lecture: [Forms + variables](/scripting/week5/forms-vars)
+4. Project: What? (coming very soon)
+
 ## Week 4: Thursday
 
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=e6S8fZmI8y4) (slides are available below, not sure why they didn’t show in the video)
 2. More project critiques
-3. Lecture: [CSS Positioning](/scripting/week4/css-positioning)
+3. Lecture: [CSS Positioning (part 1)](/scripting/week4/css-positioning)
 4. Exercise: [What?](https://github.com/dphiffer/exercise-3-what) (due Tuesday, 9/22)
 5. An additional reading! [The Library of Babel](https://archive.org/stream/TheLibraryOfBabel/babel_djvu.txt) (discuss Thursday, 9/24)
 
