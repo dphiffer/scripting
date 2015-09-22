@@ -63,7 +63,8 @@
     <li><a href="http://www.html5rocks.com/en/">HTML 5 Rocks</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web">Mozilla Developer Network</a></li>
     <li><a href="http://quirksmode.org/">Quirksmode</a></li>
+		<li><a href="http://www.w3schools.com/">W3Schools</a></li>
+		<li><a href="http://webfieldmanual.com/">Web Field Manual</a></li>
     <li><a href="http://www.w3.org/Consortium/activities">World Wide Web Consortium</a></li>
-    <li><a href="http://www.w3schools.com/">W3Schools</a></li>
   </ul>
 </div>
