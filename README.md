@@ -1,11 +1,17 @@
 # Intro to Scripting Languages
 
+## Week 5: Thursday
+
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=UMhhbAAupDM)
+2. Discuss readings
+3. Lecture: [JavaScript statements](/scripting/week5/statements)
+3. Project: [What?](/scripting/project2/what)
+
 ## Week 5: Tuesday
 
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/qnhr6ixrohgykvf66ugrlkln2ua)
 2. Discuss exercise 1
 3. Lecture: [Forms + variables](/scripting/week5/forms-vars)
-4. Project: What? (coming very soon)
 
 ## Week 4: Thursday
 
