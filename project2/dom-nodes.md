@@ -1,6 +1,6 @@
 # DOM nodes
 
-Ok, now we're finally getting to the JavaScript part!
+Before we can start modifying the page, we need to point our variables to the elements on the 
 
 ## Reference
 

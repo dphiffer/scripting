@@ -42,4 +42,6 @@ Go back to the GitHub Desktop app.
 * Click the __Commit to master__ button
 * __Sync__ your changes to GitHub
 
-[Continue](dom-nodes){.button}
+## More coming
+
+*This project text isn't quite finished, please stand by while I write up the last bits.*
