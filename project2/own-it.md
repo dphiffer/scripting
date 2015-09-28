@@ -17,7 +17,8 @@ var input1 = inputs[1];
 var input2 = inputs[2];
 ```
 
-Or, if you have three inputs, the regular expression would look like `/input1=([^&]*)&input2=([^&]*)&input3=([^&]*)/`.
+Or, if you have three inputs, the regular expression would look like:  
+`/input1=([^&]*)&input2=([^&]*)&input3=([^&]*)/`
 
 ## Consider using other JavaScript objects
 
