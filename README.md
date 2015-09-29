@@ -1,11 +1,18 @@
 # Intro to Scripting Languages
 
+## Week 6: Tuesday
+
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/cay3wqsxfnkoboc3vmxlkvvilqa)
+2. Writing exercise / [Hello Prompt](http://helloprompt.com/)
+3. Lecture: [CSS positioning (part 2)](/scripting/week5/css-positioning)
+4. Due Monday: [Project 2](/scripting/project2/what)
+
 ## Week 5: Thursday
 
-1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/qkrcmx6njiaf7t7xxcnmrks3nma)
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=o2CJdL-Z6nQ)
 2. Discuss readings
 3. Lecture: [JavaScript statements](/scripting/week5/statements)
-3. Project: [What?](/scripting/project2/what)
+3. Project: [What?](/scripting/project2/what) (due Monday, 10/5)
 
 ## Week 5: Tuesday
 

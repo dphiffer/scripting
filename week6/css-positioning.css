@@ -1,0 +1,101 @@
+.display pre,
+.float pre {
+	width: calc(60% - 35px);
+}
+
+.display-example,
+.float-example {
+	position: absolute;
+	right: 50px;
+	top: 275px;
+	width: calc(40% - 35px);
+	line-height: 150%;
+}
+
+.display-example span,
+.display-example div {
+	border: 2px solid #dedede;
+}
+
+.display-example div {
+	padding: 10px;
+}
+
+.display-none-example-transition .b {
+	background: #dedede;
+	text-decoration: line-through;
+	color: #808080;
+}
+
+.display-none-example .b {
+	display: none;
+}
+
+.display-inline-example .b {
+	display: inline;
+	padding: 0;
+	background: #ff9;
+}
+
+.display-block-example .b {
+	display: block;
+	padding: 10px;
+	background: #ff9;
+}
+
+.display-example .foo {
+	background: #faa;
+}
+
+.display-example .bar {
+	background: #cf9;
+}
+
+.display-dimensions-example .foo,
+.display-dimensions-example .bar {
+	box-sizing: border-box;
+}
+
+.display-dimensions-example .foo {
+	width: 125px;
+}
+
+.display-dimensions-example .bar {
+	width: 150px;
+}
+
+.display-dimensions-example .baz {
+	width: 175px;
+}
+
+.display-example .baz {
+	background: #9cf;
+	display: inline-block;
+	padding: 10px;
+}
+
+.float-example div {
+	border: 2px solid #dedede;
+	padding: 10px;
+}
+
+.float-example .floated-left {
+	float: left;
+}
+
+.float-example .floated-right {
+	float: right;
+}
+
+.float-example .clear {
+	clear: both;
+}
+
+.float-example {
+	line-height: 125%;
+}
+
+.float-columns-example div {
+	box-sizing: border-box;
+	width: 33.33%;
+}
