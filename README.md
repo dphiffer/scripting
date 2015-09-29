@@ -4,7 +4,7 @@
 
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/cay3wqsxfnkoboc3vmxlkvvilqa)
 2. Writing exercise / [Hello Prompt](http://helloprompt.com/)
-3. Lecture: [CSS positioning (part 2)](/scripting/week5/css-positioning)
+3. Lecture: [CSS positioning (part 2)](/scripting/week6/css-positioning)
 4. Due Monday: [Project 2](/scripting/project2/what)
 
 ## Week 5: Thursday
