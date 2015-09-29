@@ -6,6 +6,7 @@
 2. Writing exercise / [Hello Prompt](http://helloprompt.com/)
 3. Lecture: [CSS positioning (part 2)](/scripting/week6/css-positioning)
 4. Due Monday: [Project 2](/scripting/project2/what)
+5. Reading: *Chapter 15: Scripting Documents* (discuss Tuesday, 10/6)
 
 ## Week 5: Thursday
 
