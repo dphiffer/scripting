@@ -1,5 +1,11 @@
 # Intro to Scripting Languages
 
+## Week 6: Thursday
+
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/m27zguroq7z5eezppnvi2m4wlma) 
+2. Lecture: [jQuery, events, images](/scripting/week6/jquery_events_images.pdf)
+3. [Examples](/scripting/week6/examples/)
+
 ## Week 6: Tuesday
 
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/cay3wqsxfnkoboc3vmxlkvvilqa)
