@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		
+		body {
+			overflow: hidden;
+		}
+		
+		#nyan {
+			position: absolute;
+			left: 0;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		
+		#nyan.sunglasses {
+			left: 100%;
+			transition: left 3s ease-in;
+		}
+		
+		</style>
+	</head>
+	<img id="nyan" src="nyan.gif" alt="nyan cat">
+	<script src="jquery-1.11.3.min.js"></script>
+	<script>
+
+	(function($) {
+		var img = $('#nyan');
+		img.click(function() {
+			if ($(this).attr('src') === 'nyan.gif') {
+				$(this).attr('src', 'sunglasses.gif');
+				$(this).addClass('sunglasses');
+			} else {
+				$(this).attr('src', 'nyan.gif');
+				$(this).removeClass('sunglasses');
+			}
+		});
+	})(jQuery);
+
+	</script>
+</html>
