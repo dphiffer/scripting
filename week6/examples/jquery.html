@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
-    <div class="nyan">nyan</div>
-    <script src="jquery-1.11.3.min.js"></script>
-    <script>
-    
-    jQuery('.nyan').click(function() {
-        jQuery(this).html('<img src="nyan.gif">');
-    });
- 
-    </script>
+	<div class="nyan">nyan</div>
+	<div class="nyan">nyan</div>
+	<div class="nyan">nyan</div>
+	<div class="nyan">nyan</div>
+	<div class="nyan">nyan</div>
+	<script src="jquery-1.11.3.min.js"></script>
+	<script>
+
+	(function($) {
+		var div = $('.nyan');
+		div.click(function() {
+			console.log(this);
+			this.innerHTML = '<img src="nyan.gif">';
+		});
+	})(jQuery);
+
+	</script>
 </html>
