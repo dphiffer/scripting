@@ -1,14 +1,22 @@
 # Intro to Scripting Languages
 
+## Week 7: Tuesday
+
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/x6dbigp3d7tre25rzx5tlm5wa4a) 
+2. Project 2 critiques
+3. Reading discussion: *Scripting Documents*
+4. Lecture: [DOM initializers + traversal](week7/js-dom)
+5. Reading: [Using jQuery Core](http://learn.jquery.com/using-jquery-core/)
+
 ## Week 6: Thursday
 
-1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/m27zguroq7z5eezppnvi2m4wlma) 
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=QiADdtRep3M) 
 2. Lecture: [jQuery, events, images](/scripting/week6/jquery_events_images.pdf)
 3. [Examples](/scripting/week6/examples/), also [Pokemon](http://codepen.io/anon/pen/JYEQoq)
 
 ## Week 6: Tuesday
 
-1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/cay3wqsxfnkoboc3vmxlkvvilqa)
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=r13ZPShu3f8)
 2. Writing exercise / [Hello Prompt](http://helloprompt.com/)
 3. Lecture: [CSS positioning (part 2)](/scripting/week6/css-positioning)
 4. Due Monday: [Project 2](/scripting/project2/what)
