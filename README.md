@@ -2,9 +2,9 @@
 
 ## Week 7: Thursday
 
-1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/25ogzr7h3ztqgvgcbn5ydddyr4a)
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=8eSO-R7LnBs)
 2. Lecture: [AJAX + JSON](week7/ajax-json)
-3. Guest lecture: [Taeyoon Choi](http://sfpc.io/people/taeyoon-choi/)
+3. Guest lecture: [Taeyoon Choi](http://sfpc.io/people/taeyoon-choi/) ([Google doc](https://docs.google.com/document/d/1YhQDRt-Mgq7On3ZFHcFxSUfUH6Ee3RQJaSDd7N7d1Bs/edit))
 4. Exercise 4: *The Whale* (coming soon!)
 
 ## Week 7: Tuesday
