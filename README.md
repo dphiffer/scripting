@@ -1,8 +1,15 @@
 # Intro to Scripting Languages
 
+## Week 7: Thursday
+
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/25ogzr7h3ztqgvgcbn5ydddyr4a)
+2. Lecture: [AJAX + JSON](week7/ajax-json)
+3. Guest lecture: [Taeyoon Choi](http://sfpc.io/people/taeyoon-choi/)
+4. Exercise 4: *The Whale* (coming soon!)
+
 ## Week 7: Tuesday
 
-1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/x6dbigp3d7tre25rzx5tlm5wa4a) 
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=F8JgJULu37Y) 
 2. Project 2 critiques
 3. Reading discussion: *Scripting Documents*
 4. Lecture: [DOM initializers + traversal](week7/js-dom)

@@ -113,7 +113,7 @@ jQuery('#second').html('Hi.');
 	var $foo = $('#foo');
 	$foo.html('Hello, world.');
 	
-}(jQuery); // Pass the jQuery function, gets aliased to $
+})(jQuery); // Pass the jQuery function, gets aliased to $
 
 // Outside the function scope
 ```
