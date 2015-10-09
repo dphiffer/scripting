@@ -26,7 +26,7 @@ if (!empty($_POST['repo']) && !empty($_POST['status'])) {
 			),
 			'events' => array('push'),
 			'active' => true
-		));
+		), null, true);
 		if (!empty($response->id)) {
 			file_put_contents("$repo_dir/$repo.txt", $response->id);
 		}
@@ -38,7 +38,7 @@ if (!empty($_POST['repo']) && !empty($_POST['status'])) {
 		}
 		if (file_exists("$repo_dir/$repo.txt")) {
 			$hook_id = file_get_contents("$repo_dir/$repo.txt");
-			github_api('DELETE', "/repos/{$user->login}/$repo/hooks/$hook_id");
+			github_api('DELETE', "/repos/{$user->login}/$repo/hooks/$hook_id", null, null, true);
 			unlink("$repo_dir/$repo.txt");
 		}
 		echo $repo;

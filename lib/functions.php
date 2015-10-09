@@ -200,7 +200,7 @@ function github_repos() {
 	}
 }
 
-function github_api($method, $path, $args = null, $credentials = null) {
+function github_api($method, $path, $args = null, $credentials = null, $debug = false) {
 	global $base_title, $github_api_debug;
 	if (empty($credentials)) {
 		$github = json_decode($_SESSION['github']);
@@ -243,14 +243,18 @@ function github_api($method, $path, $args = null, $credentials = null) {
 	$ch = curl_init();
 	curl_setopt_array($ch, $options);
 	$response = curl_exec($ch);
-	$github_api_debug = array(
-		'response' => $response,
-		'info' => curl_getinfo($ch)
-	);
-	$log = fopen(dirname(__DIR__) . '/debug.log', 'a');
-	$msg = print_r($github_api_debug, true);
-	fwrite($log, $msg);
-	fclose($log);
+	if ($debug) {
+		$github_api_debug = array(
+			$method => $url,
+			$args => $args,
+			'response' => $response,
+			'info' => curl_getinfo($ch)
+		);
+		$log = fopen(dirname(__DIR__) . '/debug.log', 'a');
+		$msg = print_r($github_api_debug, true);
+		fwrite($log, $msg);
+		fclose($log);
+	}
 	curl_close($ch);
 	return json_decode($response);
 }
