@@ -2,6 +2,9 @@
 
 // Based on https://gist.github.com/webjay/3915531
 
+require_once dirname(__DIR__) . '/config.php';
+require_once __DIR__ . '/functions.php';
+
 // GitHub will hit us with POST
 // https://developer.github.com/webhooks/
 if (!empty($_POST['payload'])) {
