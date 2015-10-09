@@ -246,7 +246,7 @@ function github_api($method, $path, $args = null, $credentials = null, $debug = 
 	if ($debug) {
 		$github_api_debug = array(
 			$method => $url,
-			$args => $args,
+			'args' => $args,
 			'response' => $response,
 			'info' => curl_getinfo($ch)
 		);
