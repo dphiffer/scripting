@@ -1,10 +1,7 @@
 <?php
 
 // Base config
-$base_title = 'Introduction to Scripting Languages';
-$base_path  = '/scripting';
-$template   = 'main.php';
-$title_sep  = ' / ';
+require_once 'config.php';
 
 // Update from GitHub webhook
 require_once 'lib/update.php';
@@ -24,6 +21,9 @@ $markdown = get_markdown($filename);
 $properties = get_properties($html);
 extract($properties);
 $title = get_title($base_title, $html, $properties, $title_sep);
+
+// Class for page-specific CSS
+$page_class = strtolower(preg_replace('/[^a-zA-Z-]+/', '-', $filename));
 
 // Let's goooo!!
 require_once "templates/$template";

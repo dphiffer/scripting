@@ -5,19 +5,26 @@ use \Michelf\MarkdownExtra;
 // Parses input text into HTML using PHP Markdown Extra
 // https://michelf.ca/projects/php-markdown/extra/
 function parse_markdown($markdown) {
-  require_once 'lib/markdown/Michelf/MarkdownExtra.inc.php';
+	$dir = __DIR__;
+  require_once "$dir/markdown/Michelf/MarkdownExtra.inc.php";
   return MarkdownExtra::defaultTransform($markdown);
 }
 
 // Looks for either $name.md or $name.html and returns HTML
 function get_partial($name) {
   $html = '';
-  if (file_exists("$name.md")) {
-    $markdown = file_get_contents("$name.md");
+	$dir = dirname(__DIR__);
+  if (file_exists("$dir/$name.md")) {
+    $markdown = file_get_contents("$dir/$name.md");
     $html     = parse_markdown($markdown);
-  } else if (file_exists("$name.html")) {
-    $html     = file_get_contents("$name.html");
-  }
+  } else if (file_exists("$dir/$name.html")) {
+    $html     = file_get_contents("$dir/$name.html");
+  } else if (file_exists("$dir/$name.php")) {
+		ob_start();
+		include "$dir/$name.php";
+		$html = ob_get_contents();
+		ob_end_clean();
+	}
   return $html;
 }
 
@@ -135,4 +142,137 @@ function stylesheets() {
   if (!empty($stylesheet)) {
     echo "<link rel=\"stylesheet\" href=\"$base_path/$stylesheet\">\n";
   }
+}
+
+function github_controls() {
+	global $base_path;
+	$redirect = "http://{$_SERVER['HTTP_HOST']}$base_path/lib/oauth.php";
+	if (empty($_SESSION['github'])) {
+		$path = urlencode($_SERVER['REQUEST_URI']);
+		echo "<a href=\"$base_path/lib/login.php?return=$path\">Login with GitHub</a>\n";
+	} else {
+		// Show logged in user's repos
+		github_repos();
+	}
+}
+
+function github_state() {
+	global $github_config;
+	extract($github_config);
+	$time = floor(time() / 60);
+	return md5("$state_seed$client_secret$time");
+}
+
+function github_check_state($state) {
+	global $github_config;
+	extract($github_config);
+	$curr_time = floor(time() / 60);
+	$curr_state = md5("$state_seed$client_secret$curr_time");
+	$last_time = floor((time() - 60) / 60);
+	$last_state = md5("$state_seed$client_secret$last_time");
+	return ($state == $curr_state ||
+	        $state == $last_state);
+}
+
+function github_repos() {
+	global $base_path;
+	$user = github_api('GET', '/user');
+	$repos = github_api('GET', '/user/repos', array(
+		'affiliation' => 'owner',
+		'sort' => 'pushed',
+		'direction' => 'desc'
+	));
+	if (!empty($user->login)) {
+		$repo_dir = dirname(__DIR__) . "/students/$user->login";
+		echo "Hello, <a href=\"https://github.com/$user->login\">$user->name</a>";
+		echo " <a href=\"$base_path/lib/logout.php\" class=\"logout\">logout</a>";
+		echo '<ul id="repos">';
+		foreach ($repos as $repo) {
+			$label = $repo->name;
+			$checked = '';
+			if (file_exists("$repo_dir/$repo->name")) {
+				$label = "<a href=\"$base_path/students/$user->login/$repo->name/\">$label</a>";
+				$checked = ' checked="checked"';
+			} 
+			echo "<li id=\"repo-$repo->name\" class=\"repo\"><label><input type=\"checkbox\"$checked> <span class=\"label\">$label</span></label></li>\n";
+		}
+		echo '</ul>';
+	}
+}
+
+function github_api($method, $path, $args = null, $credentials = null) {
+	global $base_title, $github_api_debug;
+	if (empty($credentials)) {
+		$github = json_decode($_SESSION['github']);
+	} else {
+		$github = $credentials;
+	}
+	if (empty($args)) {
+		$args = array();
+	}
+	$url = "https://api.github.com$path";
+	$method = strtoupper($method);
+	if ($method == 'GET' && !empty($args)) {
+		$query = array();
+		foreach ($args as $key => $value) {
+			$query[] = urlencode($key) . '=' . urlencode($value);
+		}
+		$query = implode('&', $query);
+		$url .= "?$query";
+	}
+	$options = array(
+		CURLOPT_URL => $url,
+		CURLOPT_RETURNTRANSFER => true,
+		CURLOPT_USERAGENT => "$base_title website 0.2",
+		CURLOPT_HTTPHEADER => array(
+			'Accept: application/vnd.github.v3+json',
+			"Authorization: token $github->access_token"
+		)
+	);
+	if ($method != 'GET') {
+		if ($method == 'POST') {
+			$options[CURLOPT_POST] = true;
+		} else {
+			$options[CURLOPT_CUSTOMREQUEST] = $method;
+		}
+		if (!empty($args)) {
+			$options[CURLOPT_POSTFIELDS] = json_encode($args);
+		}
+		$options[CURLOPT_HTTPHEADER][] = 'Content-Type: application/json';
+	}
+	$ch = curl_init();
+	curl_setopt_array($ch, $options);
+	$response = curl_exec($ch);
+	$github_api_debug = array(
+		'info' => curl_getinfo($ch),
+		'response' => $response
+	);
+	curl_close($ch);
+	return json_decode($response);
+}
+
+function syscall($cmd, $cwd) {
+  $descriptorspec = array(
+    1 => array('pipe', 'w'), // stdout is a pipe that the child will write to
+    2 => array('pipe', 'w')  // stderr
+  );
+  $resource = proc_open($cmd, $descriptorspec, $pipes, $cwd);
+  if (is_resource($resource)) {
+    $output = stream_get_contents($pipes[2]);
+    $output .= PHP_EOL;
+    $output .= stream_get_contents($pipes[1]);
+    $output .= PHP_EOL;
+    fclose($pipes[1]);
+    fclose($pipes[2]);
+    proc_close($resource);
+    return $output;
+  }
+}
+
+function git_current_branch ($cwd) {
+  $result = syscall('git branch', $cwd);
+  if (preg_match('/\\* (.*)/', $result, $matches)) {
+    return $matches[1];
+  }
+	return 'master';
 }

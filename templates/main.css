@@ -213,22 +213,48 @@ footer .column {
   width: 100%;
 }
 
-#page.students-md #main h2 {
+#sidebar {
+	padding: 1.5em 1.5em 0 1.5em;
+}
+
+#sidebar ul {
+	margin-left: 0;
+}
+
+#sidebar li {
+	list-style: none;
+	padding-left: 0;
+}
+
+#sidebar input {
+	margin-top: -2px;
+}
+
+.logout {
+	color: #999;
+	margin-left: 10px;
+}
+
+.logout:hover {
+	color: #3cf;
+}
+
+#page.students #main h2 {
   margin-top: 0;
 }
 
-#page.students-md #main h2 img {
+#page.students #main h2 img {
   width: 50px;
   vertical-align: bottom;
   margin-right: 0.25em;
 }
 
-#page.students-md #main h2 a {
+#page.students #main h2 a {
   color: #000;
   text-decoration: none;
 }
 
-#page.students-md #main h2 a:hover {
+#page.students #main h2 a:hover {
   color: #09c;
   text-decoration: none;
 }
@@ -265,4 +291,14 @@ footer .column {
     vertical-align: top;
   }
 
+}
+
+@media (min-width: 950px) {
+	
+	#sidebar {
+		float: right;
+		width: 280px;
+		padding-top: 95px;
+	}
+	
 }

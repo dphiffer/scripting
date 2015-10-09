@@ -1,11 +1,12 @@
 <?php
 
+// Set up session
+session_set_cookie_params(60 * 60 * 24 * 365, $base_path);
+session_start();
+
 // Get header/footer HTML
 $header_html = get_partial('header');
 $footer_html = get_partial('footer');
-
-// Class for page-specific CSS
-$page_class = strtolower(preg_replace('/[^a-zA-Z-]+/', '-', $filename));
 
 ?>
 <!DOCTYPE html>
@@ -33,10 +34,13 @@ $page_class = strtolower(preg_replace('/[^a-zA-Z-]+/', '-', $filename));
           </nav>
         </header>
       <?php } ?>
+			<div id="sidebar">
+				<?php github_controls(); ?>
+			</div>
       <article id="main">
         <?php echo $html; ?>
       </article>
-      <?php if (!empty($footer_html)) { ?>
+			<?php if (!empty($footer_html)) { ?>
         <footer>
           <nav>
             <?php echo $footer_html ?>
@@ -44,5 +48,6 @@ $page_class = strtolower(preg_replace('/[^a-zA-Z-]+/', '-', $filename));
         </footer>
       <?php } ?>
     </div>
+		<script src="<?php echo $base_path; ?>/templates/main.js"></script>
   </body>
 </html>
