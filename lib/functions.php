@@ -247,6 +247,10 @@ function github_api($method, $path, $args = null, $credentials = null) {
 		'response' => $response,
 		'info' => curl_getinfo($ch)
 	);
+	$log = fopen(dirname(__DIR__) . '/debug.log', 'a');
+	$msg = print_r($github_api_debug, true);
+	fwrite($log, $msg);
+	fclose($log);
 	curl_close($ch);
 	return json_decode($response);
 }

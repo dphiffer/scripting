@@ -18,6 +18,7 @@ if (!empty($_SESSION['github'])) {
 }
 
 extract($github_config);
+$redirect = "http://{$_SERVER['HTTP_HOST']}$base_path/lib/oauth.php";
 $github_login_url = 'https://github.com/login/oauth/authorize';
 $github_login_url .= "?client_id=$client_id";
 $github_login_url .= "&scope=" . urlencode('admin:repo_hook');

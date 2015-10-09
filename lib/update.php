@@ -13,7 +13,10 @@ if (!empty($_POST['payload'])) {
 	$payload = json_decode($_POST['payload']);
 
   // which branch was committed?
-  $branch = substr($payload->ref, strrpos($payload->ref, '/') + 1);
+	$branch = 'unknown';
+	if (!empty($payload->ref)) {
+		$branch = substr($payload->ref, strrpos($payload->ref, '/') + 1);
+	}
 
   // If your website directories have the same name as your repository this would work.
   $repository = $payload->repository->full_name;

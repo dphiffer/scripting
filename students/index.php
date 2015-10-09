@@ -27,7 +27,8 @@ function user_repos($username) {
 	$repos = array();
 	$dh = opendir(__DIR__ . "/$username");
 	while ($file = readdir($dh)) {
-		if (substr($file, 0, 1) == '.') {
+		if (substr($file, 0, 1) == '.' ||
+		    substr($file, -4, 4) == '.txt') {
 			continue;
 		}
 		$repos[] = $file;
@@ -44,7 +45,7 @@ function user_repos($username) {
 
 $teacher_count = 0;
 
-$html .= "<h1>Students</h1>\n";
+$html = "<h1>Students</h1>\n";
 foreach ($github_users as $username => $name) {
 	if (in_array($username, $github_teachers)) {
 		$teacher_count++;

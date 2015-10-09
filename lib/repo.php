@@ -16,7 +16,6 @@ if (!empty($_POST['repo']) && !empty($_POST['status'])) {
 		}
 		if (!file_exists("$repo_dir/$repo")) {
 			exec("cd $repo_dir && git clone https://github.com/$user->login/$repo.git");
-			exec("chmod -R g+w $repo_dir/$repo");
 		}
 		
 		$response = github_api('POST', "/repos/{$user->login}/$repo/hooks", array(
@@ -31,12 +30,6 @@ if (!empty($_POST['repo']) && !empty($_POST['status'])) {
 		if (!empty($response->id)) {
 			file_put_contents("$repo_dir/$repo.txt", $response->id);
 		}
-		
-		/*global $github_api_debug;
-		$log = fopen(dirname(__DIR__) . '/debug.log', 'a');
-		$msg = print_r($github_api_debug, true);
-		fwrite($log, $msg);
-		fclose($log);*/
 		
 		echo "<a href=\"$base_path/students/$user->login/$repo\">$repo</a>";
 	} else if ($_POST['status'] == 'disable') {
