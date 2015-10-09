@@ -244,8 +244,8 @@ function github_api($method, $path, $args = null, $credentials = null) {
 	curl_setopt_array($ch, $options);
 	$response = curl_exec($ch);
 	$github_api_debug = array(
-		'info' => curl_getinfo($ch),
-		'response' => $response
+		'response' => $response,
+		'info' => curl_getinfo($ch)
 	);
 	curl_close($ch);
 	return json_decode($response);

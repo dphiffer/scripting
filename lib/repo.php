@@ -28,8 +28,10 @@ if (!empty($_POST['repo']) && !empty($_POST['status'])) {
 			'active' => true
 		));
 		
+		global $github_api_debug;
 		$log = fopen(dirname(__DIR__) . '/debug.log', 'a');
-		fwrite($log, $github_api_debug);
+		$msg = print_r($github_api_debug, true);
+		fwrite($log, $msg);
 		fclose($log);
 		
 		echo "<a href=\"$base_path/students/$user->login/$repo\">$repo</a>";
