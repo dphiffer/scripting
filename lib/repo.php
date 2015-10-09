@@ -27,6 +27,11 @@ if (!empty($_POST['repo']) && !empty($_POST['status'])) {
 			'events' => array('push'),
 			'active' => true
 		));
+		
+		$log = fopen(dirname(__DIR__) . '/debug.log', 'a');
+		fwrite($log, $github_api_debug);
+		fclose($log);
+		
 		echo "<a href=\"$base_path/students/$user->login/$repo\">$repo</a>";
 	} else if ($_POST['status'] == 'disable') {
 		if (file_exists("$repo_dir/$repo")) {
