@@ -19,7 +19,7 @@ if (!empty($_POST['repo']) && !empty($_POST['status'])) {
 			exec("chmod -R g+w $repo_dir/$repo");
 		}
 		
-		github_api('POST', "/repos/{$user->login}/$repo/hooks", array(
+		$response = github_api('POST', "/repos/{$user->login}/$repo/hooks", array(
 			'name' => 'web',
 			'config' => array(
 				'url' => "http://{$_SERVER['HTTP_HOST']}$base_path/",
@@ -28,6 +28,9 @@ if (!empty($_POST['repo']) && !empty($_POST['status'])) {
 			'events' => array('push'),
 			'active' => true
 		));
+		if (!empty($response->id)) {
+			file_put_contents("$repo_dir/$repo.txt", $response->id);
+		}
 		
 		/*global $github_api_debug;
 		$log = fopen(dirname(__DIR__) . '/debug.log', 'a');
@@ -40,7 +43,11 @@ if (!empty($_POST['repo']) && !empty($_POST['status'])) {
 		if (file_exists("$repo_dir/$repo")) {
 			exec("rm -rf $repo_dir/$repo");
 		}
-		github_api('DELETE', "/repos/{$user->login}/$repo/hooks");
+		if (file_exists("$repo_dir/$repo.txt")) {
+			$hook_id = file_get_contents("$repo_dir/$repo.txt");
+			github_api('DELETE', "/repos/{$user->login}/$repo/hooks/$hook_id");
+			unlink("$repo_dir/$repo.txt");
+		}
 		echo $repo;
 	}
 }
