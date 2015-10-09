@@ -19,7 +19,7 @@ if (!empty($_POST['repo']) && !empty($_POST['status'])) {
 		}
 		
 		github_api('POST', "/repos/{$user->login}/$repo/hooks", array(
-			'name' => $base_title,
+			'name' => 'web',
 			'config' => array(
 				'url' => "http://{$_SERVER['HTTP_HOST']}$base_path/",
 				'content_type' => 'form'
