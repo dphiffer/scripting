@@ -1,10 +1,10 @@
-# Exercise: The Whale
+# Exercise: *The Whale*
 
 This week we will explore how AJAX can be used to bring new content onto the page dynamically. We'll also be using jQuery for the first time.
 
 ## Create a new repository
 
-* Go to [github.com/new](https://github.com/new) and create a repository called `exercise-4-whale`
+* Go to [github.com/new](https://github.com/new) and create a repository called __exercise-4-whale__
 * Use the __GitHub Desktop__ app to clone the repository on your local computer
 
 ## Start with blank files
