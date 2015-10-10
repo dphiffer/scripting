@@ -259,6 +259,10 @@ footer .column {
   text-decoration: none;
 }
 
+#page.students #main ul {
+	margin-bottom: 1.5em;
+}
+
 @media (min-width: 650px) {
 
   header {
