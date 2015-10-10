@@ -2,6 +2,7 @@
 
 require_once dirname(__DIR__) . '/config.php';
 require_once dirname(__DIR__) . '/lib/functions.php';
+session_start();
 
 function user_html($username, $name) {
 	global $base_path;
