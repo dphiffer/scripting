@@ -1,5 +1,6 @@
 config.php
-updates.log
+update.log
+debug.log
 */test/*
 students/*.txt
 students/*/
