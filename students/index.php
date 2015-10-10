@@ -44,26 +44,30 @@ function user_repos($username) {
 }
 
 $teacher_count = 0;
-
 $html = "<h1>Students</h1>\n";
-foreach ($github_users as $username => $name) {
-	if (in_array($username, $github_teachers)) {
-		$teacher_count++;
-		continue;
-	}
-	$html .= user_html($username, $name);
-}
 
-if ($teacher_count == 1) {
-	$html .= "<h1>Teacher</h1>\n";
-} else if ($teacher_count > 0) {
-	$html .= "<h1>Teachers</h1>\n";
-}
-
-foreach ($github_users as $username => $name) {
-	if (in_array($username, $github_teachers)) {
+if (!empty($_SESSION['github'])) {
+	foreach ($github_users as $username => $name) {
+		if (in_array($username, $github_teachers)) {
+			$teacher_count++;
+			continue;
+		}
 		$html .= user_html($username, $name);
 	}
+
+	if ($teacher_count == 1) {
+		$html .= "<h1>Teacher</h1>\n";
+	} else if ($teacher_count > 0) {
+		$html .= "<h1>Teachers</h1>\n";
+	}
+
+	foreach ($github_users as $username => $name) {
+		if (in_array($username, $github_teachers)) {
+			$html .= user_html($username, $name);
+		}
+	}
+} else {
+	$html .= '<p>Sorry, you must be logged in to view the student list.</p>';
 }
 
 $title = "Students$title_sep$base_title";
