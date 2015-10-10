@@ -241,6 +241,7 @@ footer .column {
 
 #page.students #main h2 {
   margin-top: 0;
+	margin-bottom: 0.5em;
 }
 
 #page.students #main h2 img {
@@ -260,7 +261,7 @@ footer .column {
 }
 
 #page.students #main ul {
-	margin-bottom: 1.5em;
+	margin-bottom: 2em;
 }
 
 @media (min-width: 650px) {
