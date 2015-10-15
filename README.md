@@ -4,8 +4,9 @@
 
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/6o64ikab6byhhgoaxm46mfrdi4a)
 2. Exercise discussion
-3. Reading: [The Author of the Acacia Seeds](http://interconnected.org/home/more/2007/03/acacia-seeds.html)
-4. Midterm: [*Therolinguistics*](midterm/therolinguistics) (due Tuesday, 10/20 before 11am CT)
+3. Please turn in all of your exercises and projects using the course website sidebar
+4. Reading: [The Author of the Acacia Seeds](http://interconnected.org/home/more/2007/03/acacia-seeds.html)
+5. Midterm: [*Therolinguistics*](midterm/therolinguistics) (due Tuesday, 10/20 before 11am CT)
 
 ## Week 8: Tuesday (no class)
 
