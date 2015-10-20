@@ -1,5 +1,13 @@
 # Intro to Scripting Languages
 
+## Week 9: Tuesday
+
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/hmqzorvic6ouzhrvwv6ge5gznma)
+2. Midterm critiques
+3. Course server
+4. Course domain name ([List of new TLDs](https://www.namecheap.com/domains/new-tlds/explore.aspx))
+5. Reading: [*I had a couple drinks and woke up with 1,000 nerds*](https://medium.com/message/tilde-club-i-had-a-couple-drinks-and-woke-up-with-1-000-nerds-a8904f0a2ebf)
+
 ## Week 8: Thursday
 
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=cBub6-Sxy0s)
