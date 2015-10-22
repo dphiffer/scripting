@@ -126,7 +126,12 @@ class: center, middle
 # index.php
 
 ```php
-<?php include 'header.php'; ?>
+<?php
+
+$title = 'Home page';
+include 'header.php';
+
+?>
 
 (Home page content goes here)
 
@@ -138,7 +143,12 @@ class: center, middle
 # about.php
 
 ```php
-<?php include 'header.php'; ?>
+<?php
+
+$title = 'About page';
+include 'header.php';
+
+?>
 
 (About page content goes here)
 
@@ -150,7 +160,12 @@ class: center, middle
 # portfolio.php
 
 ```php
-<?php include 'header.php'; ?>
+<?php
+
+$title = 'Portfolio page';
+include 'header.php';
+
+?>
 
 (Portfolio page content goes here)
 
