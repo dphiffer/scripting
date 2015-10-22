@@ -1,8 +1,16 @@
 # Intro to Scripting Languages
 
+## Week 9: Thursday
+
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/5dlxa5rthiodiglcqvmvfsqz7ma)
+2. Midterm grades have been posted, let me know if you have any questions
+3. Reading discussion
+3. Lecture: [Intro to PHP](week9/php)
+4. Exercise: [*Tiniest Wiki*](week9/wiki) (due Tuesday 10/27)
+
 ## Week 9: Tuesday
 
-1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/hmqzorvic6ouzhrvwv6ge5gznma)
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=0zq9gXlbSOc)
 2. Midterm critiques
 3. Course server
 4. Course domain name ([List of new TLDs](https://www.namecheap.com/domains/new-tlds/explore.aspx))
