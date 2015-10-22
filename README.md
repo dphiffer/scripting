@@ -2,11 +2,12 @@
 
 ## Week 9: Thursday
 
-1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/5dlxa5rthiodiglcqvmvfsqz7ma)
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=ibM2bGoJUNM)
 2. Midterm grades have been posted, let me know if you have any questions
 3. Reading discussion
 3. Lecture: [Intro to PHP](week9/php)
 4. Exercise: [*Tiniest Wiki*](week9/wiki) (due Tuesday 10/27)
+5. “Reading”: [Our Comrade the Electron](http://www.webstock.org.nz/talks/our-comrade-the-electron/)
 
 ## Week 9: Tuesday
 
