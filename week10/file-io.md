@@ -136,7 +136,7 @@ fclose($fh);
 
 function log_event($message) {
 	global $_log_fh;
-	if (empty($log_fh)) {
+	if (empty($_log_fh)) {
 		// Setup the file handle if one doesn't exist already
 		$_log_fh = fopen('output.log', 'a');
 	}
