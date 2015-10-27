@@ -160,3 +160,10 @@ file_put_contents('emoji_dick.txt', $emoji_dick);
 ```
 
 .footnote[Emoji Dick is [an actual project!](http://www.emojidick.com/)]
+
+---
+
+# Examples
+
+* [csv-example.php](https://github.com/dphiffer/scripting/blob/fall-2015/week10/csv-example.php)
+* [log-example.php](https://github.com/dphiffer/scripting/blob/fall-2015/week10/log-example.php)
