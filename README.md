@@ -2,7 +2,7 @@
 
 ## Week 10: Tuesday
 
-1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/734hgan7z3aarihmz4fx65um7qa)
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=OraGdLilyKM)
 2. (Secret reading)
 3. Lecture: [File Input/Output](week10/file-io)
 4. Project: *Tiniest Wiki* (coming soon!)
