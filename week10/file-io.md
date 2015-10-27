@@ -87,8 +87,7 @@ layout: false
 * File handles
 * Working with CSV files
 * Logging messages
-* `file_get_contents` + `file_put_contents`
-* cURL library
+* `file_get_contents` and `file_put_contents`
 
 ---
 
