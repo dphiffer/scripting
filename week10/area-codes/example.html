@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Area Code lookup</title>
+		<meta charset="utf-8">
+		<script src="jquery-1.11.3.js"></script>
+		<script>
+		
+		jQuery(document).ready(function($) {
+			var lookup;
+			$.get('area-codes.json', function(data) {
+				lookup = data;
+				console.log(typeof lookup);
+			});
+			$('form').on('submit', function(event) {
+				event.preventDefault();
+				var query = $('input[name=area_code]').val();
+				if (lookup[query]) {
+					console.log(lookup[query]);
+					var city = lookup[query][1];
+					var state = lookup[query][2];
+					var country = lookup[query][3];
+					$('#output').html('That area code is from <strong>' + city + ', ' + state + ', ' + country + '</strong>');
+				}
+			});
+		});
+		
+		</script>
+	</head>
+	<body>
+		<form>
+			<label>
+				What telephone area code are you interested in?
+				<input name="area_code" type="number">
+				<input type="submit">
+			</label>
+		</form>
+		<div id="output"></div>
+	</body>
+</html>
