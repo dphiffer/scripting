@@ -1,0 +1,295 @@
+area_code,country,state,city
+201,"United States","New Jersey","Jersey City"
+202,"United States","District of Columbia","(All Locations)"
+203,"United States",Connecticut,"Waterbury, New Haven, Bridgeport, Stamford"
+204,Canada,Manitoba,"(All Locations)"
+205,"United States",Alabama,"Montgomery, Selma, Jackson"
+206,"United States",Washington,Seattle
+207,"United States",Maine,"(All Locations)"
+208,"United States",Idaho,"(All Locations)"
+209,"United States",California,"Stockton, Merced"
+210,"United States",Texas,"San Antonio"
+212,"United States","New York","New York"
+213,"United States",California,"Los Angeles"
+214,"United States",Texas,Dallas
+215,"United States",Pennsylvania,Philadelphia
+216,"United States",Ohio,Cleveland
+217,"United States",Illinois,"Springfield, Decatur, Champaign"
+218,"United States",Minnesota,"Duluth, Brainerd, Grand Rapids, International Falls"
+219,"United States",Indiana,"Fort Wayne, South Bend, Gary"
+225,"United States",Louisiana,"Baton Rouge, New Roads"
+228,"United States",Mississippi,"Gulfport, Pascagoula"
+229,"United States",Georgia,"Albany, Americus, Bainbridge, Valdosta"
+231,"United States",Michigan,"Traverse City, Muskegon, Ludington"
+234,"United States",Ohio,"Akron, Canton, Youngstown"
+240,"United States",Maryland,"Frederick, Hagerstown, Cumberland"
+242,"The Bahamas","(All Locations)","(All Locations)"
+246,Barbados,"(All Locations)","(All Locations)"
+248,"United States",Michigan,Troy
+250,Canada,"British Columbia","non-Vancouver area"
+252,"United States","North Carolina","Greenville, Kitty Hawk"
+253,"United States",Washington,Tacoma
+254,"United States",Texas,"Waco, Killeen"
+256,"United States",Alabama,Huntsville
+262,"United States",Wisconsin,"Racine, West Bend"
+264,Anguilla,"(All Locations)","(All Locations)"
+267,"United States",Pennsylvania,Philadelphia
+268,"Antigua and Barbuda","(All Locations)","(All Locations)"
+270,"United States",Kentucky,"Paducah, Bowling Green, Owensboro"
+281,"United States",Texas,Houston
+284,"British Virgin Islands","(All Locations)","(All Locations)"
+301,"United States",Maryland,"Frederick, Hagerstown, Cumberland"
+302,"United States",Delaware,"(All Locations)"
+303,"United States",Colorado,"Denver, Boulder"
+304,"United States","West Virginia","(All Locations)"
+305,"United States",Florida,"Miami, Key West"
+306,Canada,Saskatchewan,"(All Locations)"
+307,"United States",Wyoming,"(All Locations)"
+308,"United States",Nebraska,"Scottsbluff, North Platte"
+309,"United States",Illinois,"Moline, Peoria"
+310,"United States",California,"West Los Angeles, Torrance, Malibu"
+312,"United States",Illinois,Chicago
+313,"United States",Michigan,Detroit
+314,"United States",Missouri,"Saint Louis"
+315,"United States","New York","Syracuse, Utica, Watertown"
+316,"United States",Kansas,"Wichita, Parsons, Great Bend"
+317,"United States",Indiana,Indianapolis
+318,"United States",Louisiana,"Shreveport, Monroe, Alexandria"
+319,"United States",Iowa,"Dubuque, Davenport, Iowa City, Burlington"
+320,"United States",Minnesota,"Saint Cloud, Morris, Hutchinson"
+321,"United States",Florida,Orlando
+323,"United States",California,"Los Angeles"
+330,"United States",Ohio,"Akron, Canton, Youngstown"
+334,"United States",Alabama,"Birmingham, Tuscaloosa"
+336,"United States","North Carolina","Winston Salem"
+337,"United States",Louisiana,"Lafayette, Lake Charles"
+340,"Virgin Islands","(All Locations)","(All Locations)"
+345,"Cayman Islands","(All Locations)","(All Locations)"
+347,"United States","New York","Bronx, Queens, Brooklyn, Staten Island"
+352,"United States",Florida,"Gainesville, Ocala"
+360,"United States",Washington,"Olympia, Bellingham, Aberdeen"
+361,"United States",Texas,"Corpus Christi, Victoria"
+385,"United States",Utah,"Provo, Ogden"
+401,"United States","Rhode Island","(All Locations)"
+402,"United States",Nebraska,"Omaha, Lincoln"
+403,Canada,Alberta,"Calgary, southern portion"
+404,"United States",Georgia,Atlanta
+405,"United States",Oklahoma,"Oklahoma City, Edmond"
+406,"United States",Montana,"(All Locations)"
+407,"United States",Florida,Orlando
+408,"United States",California,"San Jose, Sunnyvale, Los Gatos"
+409,"United States",Texas,"Beaumont, Galveston"
+410,"United States",Maryland,"Baltimore, Cambridge"
+412,"United States",Pennsylvania,Pittsburgh
+413,"United States",Massachusetts,"Springfield, Pittsfield"
+414,"United States",Wisconsin,Milwaukee
+415,"United States",California,"San Francisco, Novato, San Rafael"
+416,Canada,Ontario,Toronto
+417,"United States",Missouri,"Springfield, Joplin"
+418,Canada,Quebec,Quebec
+419,"United States",Ohio,"Toledo, Sandusky, Bowling Green"
+423,"United States",Tennessee,"Chattanooga, Sweetwater, Bristol"
+425,"United States",Washington,"Seattle area"
+435,"United States",Utah,"Logan, Blanding, Richfield"
+440,"United States",Ohio,"Ashtabula, Elyria"
+441,Bermuda,"(All Locations)","(All Locations)"
+443,"United States",Maryland,"Baltimore, Cambridge"
+450,Canada,Quebec,Laval
+456,"(Not Applicable)","(All Locations)","Inbound International"
+469,"United States",Texas,"Dallas, Plano"
+473,Grenada,"(All Locations)","(All Locations)"
+478,"United States",Georgia,"Macon, Warner Robins, Swainsboro"
+480,"United States",Arizona,"eastern Phoenix area, Chandler"
+484,"United States",Pennsylvania,"Allentown, Reading"
+500,"(All Values)","(All Locations)","Personal Communication Service"
+501,"United States",Arkansas,"Little Rock, Fayetteville, Hot Springs"
+502,"United States",Kentucky,"Louisville, Frankfort"
+503,"United States",Oregon,"Portland, Salem, Tillamoon, Astoria"
+504,"United States",Louisiana,"New Orleans, Houma"
+505,"United States","New Mexico","(All Locations)"
+506,Canada,"New Brunswick","(All Locations)"
+507,"United States",Minnesota,"Rochester, Mankato, Marshall, Worthington"
+508,"United States",Massachusetts,"Worcester, Attleboro, New Bedford, Hyannis"
+509,"United States",Washington,"Spokane, Yakima, Walla Walla"
+510,"United States",California,"Oakland, Hayward"
+512,"United States",Texas,Austin
+513,"United States",Ohio,"Cincinnati, Middletown"
+514,Canada,Quebec,Montreal
+515,"United States",Iowa,"Des Moines, Fort Dodge"
+516,"United States","New York",Elmont
+517,"United States",Michigan,"Lansing, Jackson, Alpena"
+518,"United States","New York","Albany, Saranac Lake, Plattsburgh"
+519,Canada,Ontario,"Windsor, London"
+520,"United States",Arizona,"non-Phoenix areas"
+530,"United States",California,"Redding, Chico, Alturas"
+540,"United States",Virginia,"Roanoke, Harrisonburg, Fredricksburg, Winchester"
+541,"United States",Oregon,"Eugene, Bend, Medford, Burns"
+559,"United States",California,Fresno
+561,"United States",Florida,"West Palm Beach, Boca Raton"
+562,"United States",California,"Long Beach"
+570,"United States",Pennsylvania,"Scranton, Williamsport"
+571,"United States",Virginia,Alexandria
+573,"United States",Missouri,"Jefferson City, Hannibal"
+580,"United States",Oklahoma,"Enid, Woodward, Lawton"
+600,Canada,"(All Locations)","Canadian Services"
+601,"United States",Mississippi,"Jackson, Mc Comb"
+602,"United States",Arizona,Phoenix
+603,"United States","New Hampshire","(All Locations)"
+604,Canada,"British Columbia","Vancouver area"
+605,"United States","South Dakota","(All Locations)"
+606,"United States",Kentucky,"London, Morehead, Pikeville"
+607,"United States","New York","Elmira, Binghamton"
+608,"United States",Wisconsin,"Madison, La Crosse"
+609,"United States","New Jersey","Trenton, Atlantic City, Brown Mills"
+610,"United States",Pennsylvania,"Allentown, Reading"
+612,"United States",Minnesota,Minneapolis
+613,Canada,Ontario,Ottawa
+614,"United States",Ohio,Columbus
+615,"United States",Tennessee,Nashville
+616,"United States",Michigan,"Kalamazoo, Grand Rapids"
+617,"United States",Massachusetts,Boston
+618,"United States",Illinois,"Mount Vernon, Carbondale"
+619,"United States",California,"San Diego"
+623,"United States",Arizona,"western Phoenix area, Peoria, Buckeye"
+626,"United States",California,Pasadena
+630,"United States",Illinois,Aurora
+631,"United States","New York","eastern Long Island"
+636,"United States",Missouri,"Union, Chesterfield"
+641,"United States",Iowa,"Mason City, Creston"
+646,"United States","New York","New York"
+647,Canada,Ontario,Toronto
+649,"Turks and Caicos Islands","(All Locations)","(All Locations)"
+650,"United States",California,"Palo Alto, San Mateo"
+651,"United States",Minnesota,"Saint Paul, Lindstrom, Red Wing"
+660,"United States",Missouri,"Macon, Marshall, Sedalia"
+661,"United States",California,Bakersfield
+662,"United States",Mississippi,"Tupelo, Columbus, Greenville"
+664,Montserrat,"(All Locations)","(All Locations)"
+670,"Northern Mariana Islands","(All Locations)","(All Locations)"
+671,Guam,"(All Locations)","(All Locations)"
+678,"United States",Georgia,Atlanta
+682,"United States",Texas,"Fort Worth"
+700,"(Not Applicable)","(All Locations)","Interexchange Carrier Services"
+701,"United States","North Dakota","(All Locations)"
+702,"United States",Nevada,"Las Vegas"
+703,"United States",Virginia,Alexandria
+704,"United States","North Carolina","Charlotte, Kingstown"
+705,Canada,Ontario,"Sudbury, Sault Ste Marie"
+706,"United States",Georgia,"Athens, Augusta, Toccoa, Dalton, Rome"
+707,"United States",California,"Santa Rosa, Ukiah, Eureka"
+708,"United States",Illinois,"Chicago Heights"
+709,Canada,Newfoundland,"(All Locations)"
+710,"United States","(All Locations)","US Government"
+712,"United States",Iowa,"Sioux City, Council Bluffs"
+713,"United States",Texas,Houston
+714,"United States",California,"Orange, Huntington Beach"
+715,"United States",Wisconsin,"Wausau, Eau Claire"
+716,"United States","New York","Buffalo, Rochester, Jamestown"
+717,"United States",Pennsylvania,"Harrisburg, Gettysburg"
+718,"United States","New York","Bronx, Queens, Brooklyn, Staten Island"
+719,"United States",Colorado,"Colorado Springs, Pueblo"
+720,"United States",Colorado,"Denver, Boulder"
+724,"United States",Pennsylvania,"New Castle, Uniontown"
+727,"United States",Florida,Clearwater
+732,"United States","New Jersey","Lakewood, New Brunswick, Neptune"
+734,"United States",Michigan,"Ann Arbor"
+740,"United States",Ohio,"Cambridge, Jackson, Lancaster, Marietta"
+757,"United States",Virginia,Norfolk
+758,"Saint Lucia","(All Locations)","(All Locations)"
+760,"United States",California,"Indio, Ridgecrest, Bishop, Blythe"
+763,"United States",Minnesota,"Maple Grove"
+765,"United States",Indiana,"Lafayette, Marion, Muncie, Richmond"
+767,Dominica,"(All Locations)","(All Locations)"
+770,"United States",Georgia,"Roswell, Marietta, Cedartown, Griffin"
+773,"United States",Illinois,Chicago
+775,"United States",Nevada,"Reno, Carson City, Elko, Ely, Tonopah"
+780,Canada,Alberta,"Edmonton, northern portion"
+781,"United States",Massachusetts,"Norwood, Weymouth, Saugus"
+784,"Saint Vincent and the Grenadines","(All Locations)","(All Locations)"
+785,"United States",Kansas,"Topeka, Saline"
+786,"United States",Florida,Miami
+787,"Puerto Rico","(All Locations)","(All Locations)"
+800,"(All Values)","(All Locations)",Toll-Free
+801,"United States",Utah,"Salt Lake City"
+802,"United States",Vermont,"(All Locations)"
+803,"United States","South Carolina","Columbia, Sumter"
+804,"United States",Virginia,"Richmond, Lynchburg, Danville"
+805,"United States",California,"Thousand Oaks, San Luis Obispo, Lompoc"
+806,"United States",Texas,"Amarillo, Lubbock"
+807,Canada,Ontario,"Thunder Bay"
+808,"United States",Hawaii,"(All Locations)"
+809,"Dominican Republic","(All Locations)","(All Locations)"
+810,"United States",Michigan,"Flint, Port Huron"
+812,"United States",Indiana,"Terre Haute, Bloomington, New Albany, Evansville"
+813,"United States",Florida,Tampa
+814,"United States",Pennsylvania,"Erie, Warren, Altoona, Johnstown"
+815,"United States",Illinois,"Rickford, Freeport, De Kalb, La Salle"
+816,"United States",Missouri,"Kansas City, Saint Joseph"
+817,"United States",Texas,"Fort Worth"
+818,"United States",California,"Glendale, San Fernando"
+819,Canada,Quebec,"Hull, Sherbrooke"
+828,"United States","North Carolina",Asheville
+830,"United States",Texas,Uvalde
+831,"United States",California,"Salinas, Santa Cruz"
+832,"United States",Texas,Houston
+843,"United States","South Carolina","Charleston, Myrtle Beach, Florence"
+845,"United States","New York","Poughkeepsie, Middletown"
+847,"United States",Illinois,"Waukegan, Des Plaines"
+850,"United States",Florida,Tallahassee
+856,"United States","New Jersey","Cherry Hill, Vineland"
+858,"United States",California,"Solano Beach, northern San Diego area"
+859,"United States",Kentucky,Lexington
+860,"United States",Connecticut,"Hartford, Norwich"
+863,"United States",Florida,"Avon Park, Clewiston"
+864,"United States","South Carolina","Greenville, Spartanburg, Anderson"
+865,"United States",Tennessee,Knoxville
+866,"(All Values)","(All Locations)",Toll-Free
+867,Canada,"Northwest Territories","(All Locations)"
+867,Canada,Nunavut,"(All Locations)"
+867,Canada,"Yukon Territory","(All Locations)"
+868,"Trinidad and Tobago","(All Locations)","(All Locations)"
+869,"Saint Kitts and Nevis","(All Locations)","(All Locations)"
+870,"United States",Arkansas,"Jonesboro, Pine Bluff"
+876,Jamaica,"(All Locations)","(All Locations)"
+877,"(All Values)","(All Locations)",Toll-Free
+880,"(All Values)","(All Locations)","Paid Toll-Free Service (800)"
+881,"(All Values)","(All Locations)","Paid Toll-Free Service (888)"
+882,"(All Values)","(All Locations)","Paid Toll-Free Service (877)"
+888,"(All Values)","(All Locations)",Toll-Free
+900,"(All Values)","(All Locations)","Premium Services"
+901,"United States",Tennessee,"Memphis, Jackson, Union City"
+902,Canada,"Nova Scotia","(All Locations)"
+902,Canada,"Prince Edward Island","(All Locations)"
+903,"United States",Texas,"Tyler, Sherman"
+904,"United States",Florida,Jacksonville
+905,Canada,Ontario,"Hamilton area"
+906,"United States",Michigan,"Sault Ste. Marie, Escanaba, Marquette"
+907,"United States",Alaska,"(All Locations)"
+908,"United States","New Jersey",Washington
+909,"United States",California,"Pomona, San Bernadino, Temecula"
+910,"United States","North Carolina","Fayetteville, Wilmington, Jacksonville"
+912,"United States",Georgia,"Waycross, Brunswick, Savannah, Vidalia"
+913,"United States",Kansas,"Kansas City, Overland Park"
+914,"United States","New York","White Plains"
+915,"United States",Texas,"El Paso, Alpine, Midland, Abilene"
+916,"United States",California,Sacramento
+917,"United States","New York","New York, Bronx, Queens, Brooklyn, Staten Island"
+918,"United States",Oklahoma,"Tulsa, Mcalester, Bartlesville"
+919,"United States","North Carolina","Raleigh, Durham"
+920,"United States",Wisconsin,"Green Bay, Oshkosh, Sheboygan"
+925,"United States",California,"Concord, Pleasanton"
+931,"United States",Tennessee,"Columbia, Manchester, Clarksville, Cookeville"
+936,"United States",Texas,"Huntsville, Lufkin"
+937,"United States",Ohio,"Dayton, Springfield, Hillsboro"
+940,"United States",Texas,"Vernon, Wichita Falls"
+941,"United States",Florida,"Naples, Fort Meyers"
+949,"United States",California,"Irvine, Laguna Niguel"
+952,"United States",Minnesota,Bloomington
+954,"United States",Florida,"Fort Lauderdale"
+956,"United States",Texas,"Mcallen, Brownsville"
+970,"United States",Colorado,"Grand Junction, Steamboat Springs, Fort Collins"
+971,"United States",Oregon,"Portland, Salem"
+972,"United States",Texas,"Dallas, Plano"
+973,"United States","New Jersey","Paterson, Sussex"
+978,"United States",Massachusetts,"Peabody, Fitchburg"
+979,"United States",Texas,Wharton
