@@ -1,7 +1,7 @@
 # Intro to Scripting Languages
 
 ## Week 10: Thursday
-1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/ard5uoki5lq5vxegwa6o47xwaua)
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=GLk7jguT000)
 2. Lecture: [Structuring data](week10/structuring-data)
 3. Demo: file permissions and security
 4. Project still coming!

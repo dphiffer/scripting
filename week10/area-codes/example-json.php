@@ -16,7 +16,7 @@ if (!empty($_GET['area_code'])) {
 		<form>
 			<label>
 				What telephone area code are you interested in?
-				<input name="area_code" type="number" value="<?php echo $query; ?>">
+				<input name="area_code" type="number" value="<?php echo htmlentities($query); ?>">
 				<input type="submit">
 			</label>
 		</form>
