@@ -16,6 +16,6 @@ while ($line = fgetcsv($fh)) {
 fclose($fh);
 
 $json = json_encode($lookup);
-file_put_contents('area-code.json', $json);
+file_put_contents('area-codes.json', $json);
 
 ?>
