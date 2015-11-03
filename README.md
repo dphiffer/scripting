@@ -1,5 +1,11 @@
 # Intro to Scripting Languages
 
+## Week 11: Tuesday
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/ipvpabkbtmgy2qtgye6nwvio4aa)
+2. Recap: area code examples
+3. Demo: filesystems: ownership and permissions
+4. Project *still* coming!
+
 ## Week 10: Thursday
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=GLk7jguT000)
 2. Lecture: [Structuring data](week10/structuring-data)
