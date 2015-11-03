@@ -2,7 +2,7 @@
 
 ## Week 11: Tuesday
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/ipvpabkbtmgy2qtgye6nwvio4aa)
-2. Recap: area code examples
+2. Recap: [area code examples](week10/area-codes/)
 3. Demo: filesystems: ownership and permissions
 4. Project *still* coming!
 
