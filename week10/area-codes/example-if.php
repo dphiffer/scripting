@@ -1,8 +1,10 @@
 <?php
 
-$query = '';
+$unsafe_query = '';
+$safe_query = '';
 if (!empty($_GET['area_code'])) {
-	$query = $_GET['area_code'];
+	$unsafe_query = $_GET['area_code'];
+	$safe_query = htmlentities($unsafe_query);
 }
 
 ?>
@@ -16,7 +18,7 @@ if (!empty($_GET['area_code'])) {
 		<form>
 			<label>
 				What telephone area code are you interested in?
-				<input name="area_code" type="number" value="<?php echo $query; ?>">
+				<input name="area_code" type="number" value="<?php echo $safe_query; ?>">
 				<input type="submit">
 			</label>
 		</form>
@@ -28,7 +30,7 @@ if (!empty($_GET['area_code'])) {
 		// Loop over each row in the CSV file
 		while ($row = fgetcsv($fh)) {
 			$area_code = $row[0];
-			if ($query == $area_code) {
+			if ($unsafe_query == $area_code) {
 				$country = $row[1];
 				$state = $row[2];
 				$city = $row[3];
