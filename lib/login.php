@@ -18,7 +18,13 @@ if (!empty($_SESSION['github'])) {
 }
 
 extract($github_config);
-$redirect = "http://{$_SERVER['HTTP_HOST']}$base_path/lib/oauth.php";
+// Redirect to HTTPS if we're on HTTPS
+if (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] != 'on') {
+	$protocol = 'http';
+} else {
+	$protocol = 'https';
+}
+$redirect = "$protocol://{$_SERVER['HTTP_HOST']}$base_path/lib/oauth.php";
 $github_login_url = 'https://github.com/login/oauth/authorize';
 $github_login_url .= "?client_id=$client_id";
 $github_login_url .= "&scope=" . urlencode('admin:repo_hook');
