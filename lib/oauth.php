@@ -9,13 +9,8 @@ if (!empty($_GET['code']) && !empty($_GET['state'])) {
 		echo "Invalid state value.";
 		exit;
 	}
-	// Redirect to HTTPS if we're on HTTPS
-	if (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] != 'on') {
-		$protocol = 'http';
-	} else {
-		$protocol = 'https';
-	}
-	$redirect = "$protocol://{$_SERVER['HTTP_HOST']}$base_path/lib/oauth.php";
+	$protocol = get_protocol();
+	$redirect = "$protocol//{$_SERVER['HTTP_HOST']}$base_path/lib/oauth.php";
 	$post_fields = array(
 		'client_id' => $client_id,
 		'client_secret' => $client_secret,

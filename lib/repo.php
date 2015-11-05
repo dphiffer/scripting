@@ -18,10 +18,11 @@ if (!empty($_POST['repo']) && !empty($_POST['status'])) {
 			exec("cd $repo_dir && git clone https://github.com/$user->login/$repo.git");
 		}
 		
+		$protocol = get_protocol();
 		$response = github_api('POST', "/repos/{$user->login}/$repo/hooks", array(
 			'name' => 'web',
 			'config' => array(
-				'url' => "http://{$_SERVER['HTTP_HOST']}$base_path/",
+				'url' => "$protocol//{$_SERVER['HTTP_HOST']}$base_path/",
 				'content_type' => 'form'
 			),
 			'events' => array('push'),

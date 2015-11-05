@@ -146,7 +146,6 @@ function stylesheets() {
 
 function github_controls() {
 	global $base_path;
-	$redirect = "http://{$_SERVER['HTTP_HOST']}$base_path/lib/oauth.php";
 	if (empty($_SESSION['github'])) {
 		$path = urlencode($_SERVER['REQUEST_URI']);
 		echo "<a href=\"$base_path/lib/login.php?return=$path\">Login with GitHub</a>\n";
@@ -283,4 +282,13 @@ function git_current_branch ($cwd) {
     return $matches[1];
   }
 	return 'master';
+}
+
+function get_protocol() {
+	if (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] != 'on') {
+		$protocol = 'http:';
+	} else {
+		$protocol = 'https:';
+	}
+	return $protocol;
 }
