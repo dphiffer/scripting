@@ -9,6 +9,7 @@ if (!empty($_GET['code']) && !empty($_GET['state'])) {
 		echo "Invalid state value.";
 		exit;
 	}
+	// Redirect to HTTPS if we're on HTTPS
 	if (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] != 'on') {
 		$protocol = 'http';
 	} else {
