@@ -16,6 +16,23 @@ echo $safe_content;
 
 This will pre-set the last value of `$content` into the form.
 
+## Wrap the content in a div
+
+Let's add an ID attribute to help us work with the content text via CSS and JavaScript.
+
+* Move the `echo` command into a new div element
+
+```php
+<?php
+
+$safe_content = htmlentities($content);
+
+?>
+<div id="content">
+	<?php echo $safe_content; ?>
+</div>
+```
+
 ## Add some styles
 
 Refer back to our earlier projects and exercises and use a stylesheet to make the page look a bit nicer. Think about fonts and layout.

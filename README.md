@@ -1,9 +1,9 @@
 # Intro to Scripting Languages
 
 ## Week 11: Thursday
-1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/l4r5pbamxiv6t5cekt3jkwjulqa)
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=i9t6Sko1DTE)
 2. Introduction to MySQL
-3. Project 3: [*The Tiniest Wiki*](project3/wiki)
+3. Project 3: [*The Tiniest Wiki*](project3/wiki) (due 11/12)
 4. Reading: [&lt;input&gt; I ♡ you, but you're bringing me down](http://meowni.ca/posts/a-story-about-input/)
 
 ## Week 11: Tuesday
