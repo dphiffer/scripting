@@ -1,3 +1,8 @@
+<?php
+
+require_once 'setup.php';
+
+?>
 <form action="login.php" method="post">
     <input type="text" name="username">
     <input type="password" name="password">
