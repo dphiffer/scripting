@@ -11,7 +11,7 @@
 		if ($logged_in) {
 			echo '<a href="logout.php">Logout</a>';
 		} else {
-			echo '<a href="logout.php">Login</a>';
+			echo '<a href="login.php">Login</a>';
 		}
 		
 		?>
