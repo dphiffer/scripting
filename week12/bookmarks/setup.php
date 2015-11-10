@@ -21,7 +21,9 @@ function get_valid_accounts() {
 }
 
 function check_login() {
-	session_start();
+	if (session_status() == PHP_SESSION_NONE) {
+		session_start();
+	}
 	return (!empty($_SESSION['username']));
 }
 
@@ -32,7 +34,9 @@ function login_user() {
 	if (!empty($valid_accounts[$username]) &&
 	    $valid_accounts[$username] == $password) {
 		$logged_in = true;
-		session_start();
+		if (session_status() == PHP_SESSION_NONE) {
+			session_start();
+		}
 		$_SESSION['username'] = $username;
 	}
 }
