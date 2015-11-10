@@ -10,6 +10,6 @@ $query = $db->query("
 ");
 $valid_accounts = $query->fetchAll();
 
-print_r($valid_account);
+print_r($valid_accounts);
 
 ?>
