@@ -16,5 +16,9 @@ if (!empty($_POST['username']) &&
     !empty($_POST['password'])) {
 	login_user();
 }
+
+if (check_login()) {
+	echo 'You are logged in.';
+}
     
 ?>

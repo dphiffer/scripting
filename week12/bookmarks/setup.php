@@ -9,11 +9,15 @@ $query = $db->query("
     FROM accounts
 ");
 
-$valid_accounts = array();
-foreach ($query->fetchAll() as $account) {
-	$username = $account['username'];
-	$password = $account['password'];
-	$valid_accounts[$username] = $password;
+function get_valid_accounts() {
+	global $db;
+	$valid_accounts = array();
+	foreach ($query->fetchAll() as $account) {
+		$username = $account['username'];
+		$password = $account['password'];
+		$valid_accounts[$username] = $password;
+	}
+	return $valid_accounts;
 }
 
 function check_login() {
@@ -22,6 +26,7 @@ function check_login() {
 }
 
 function login_user() {
+	$valid_accounts = get_valid_accounts();
 	$username = $_POST['username'];
 	$password = md5($_POST['password']);
 	if (!empty($valid_accounts[$username]) &&
