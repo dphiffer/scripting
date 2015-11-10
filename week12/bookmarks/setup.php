@@ -10,4 +10,8 @@ $query = $db->query("
 ");
 $valid_accounts = $query->fetchAll();
 
+function check_login() {
+	return false;
+}
+
 ?>
