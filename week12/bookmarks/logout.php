@@ -1,7 +1,7 @@
 <?php
 
 $_SESSION['username'] = null;
-destroy_session();
+session_destroy();
 echo "You are logged out.";
 
 ?>
