@@ -17,7 +17,19 @@ foreach ($query->fetchAll() as $account) {
 }
 
 function check_login() {
-	return false;
+	session_start();
+	return (!empty($_SESSION['username']));
+}
+
+function login_user() {
+	$username = $_POST['username'];
+	$password = md5($_POST['password']);
+	if (!empty($valid_accounts[$username]) &&
+	    $valid_accounts[$username] == $password) {
+		$logged_in = true;
+		session_start();
+		$_SESSION['username'] = $username;
+	}
 }
 
 ?>
