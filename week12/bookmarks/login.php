@@ -10,10 +10,10 @@ if (!empty($_POST['username']) &&
     !empty($_POST['password'])) {
 	$username = $_POST['username'];
 	$password = md5($_POST['password']);
-	print_r($valid_users);
+	print_r($valid_accounts);
 	print_r($_POST);
-	if (!empty($valid_users[$username]) &&
-	    $valid_users[$username] == $password) {
+	if (!empty($valid_accounts[$username]) &&
+	    $valid_accounts[$username] == $password) {
 		$logged_in = true;
 		echo "You are logged in.";
 	}
