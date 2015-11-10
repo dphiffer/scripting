@@ -13,6 +13,7 @@ if (!empty($_POST['username']) &&
 	if (!empty($valid_users[$username]) &&
 	    $valid_users[$username] == $password) {
 		$logged_in = true;
+		echo "You are logged in.";
 	}
 }
     
