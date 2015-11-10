@@ -1,5 +1,11 @@
 # Intro to Scripting Languages
 
+## Week 12: Tuesday
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/vhpduoqzh3lvvtchzumi7kphlya)
+2. Lecture: [Relational Databases](week12/relational-dbs)
+3. Demo: Login and registration
+4. Exercise: *Bookmarks* (coming soon!)
+
 ## Week 11: Thursday
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=i9t6Sko1DTE)
 2. Introduction to MySQL
@@ -10,14 +16,12 @@
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=oMZzE3-K5I0)
 2. Recap: [area code examples](week10/area-codes/)
 3. Demo: filesystems: ownership and permissions
-4. Project *still* coming!
-5. [Login example](https://github.com/dphiffer/scripting/blob/fall-2015/week11/login.php)
+4. [Login example](https://github.com/dphiffer/scripting/blob/fall-2015/week11/login.php)
 
 ## Week 10: Thursday
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=GLk7jguT000)
 2. Lecture: [Structuring data](week10/structuring-data)
 3. Demo: file permissions and security
-4. Project still coming!
 
 ## Week 10: Tuesday
 
