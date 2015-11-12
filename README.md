@@ -1,7 +1,12 @@
 # Intro to Scripting Languages
 
+## Week 12: Thursday
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/4yfvrdu3uxden45jzv3jmrptoaa)
+2. Project 3 critiques
+3. Demo: Login and registration (continued)
+
 ## Week 12: Tuesday
-1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/vhpduoqzh3lvvtchzumi7kphlya)
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=oOkZV-K3tZw)
 2. Lecture: [Relational Databases](week12/relational-dbs)
 3. Demo: Login and registration
 4. Lab time: Project 3
