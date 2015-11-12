@@ -2,7 +2,9 @@
 
 // Set up session
 session_set_cookie_params(60 * 60 * 24 * 365, $base_path);
-session_start();
+if (session_status() == PHP_SESSION_NONE) {
+	session_start();
+}
 
 // Get header/footer HTML
 $header_html = get_partial('header');
