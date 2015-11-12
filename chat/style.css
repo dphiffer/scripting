@@ -1,0 +1,61 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	margin: 10px;
+}
+
+#page {
+	width: 100%;
+	max-width: 750px;
+	margin: 0 auto;
+}
+
+#msgs {
+	font: 14px menlo, monospace;
+	padding: 5px 15px;
+	border: 1px solid #ccc;
+	height: calc(100vh - 75px);
+	overflow: auto;
+}
+
+#msgs p {
+	margin: 5px 0 0 0;
+	border-top: 1px solid #dedede;
+	padding: 10px 0 0 0;
+}
+
+#msgs p:first-child {
+	border-top: none;
+	margin-top: 0;
+}
+
+#msgs p:last-child {
+	padding-bottom: 10px;
+}
+
+form {
+	margin-top: 10px;
+	width: 100%;
+	max-width: 750px;
+}
+
+input[type=text] {
+	font: 14px menlo, monospace;
+	width: calc(100% - 65px);
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+input[type=submit] {
+	font: 14px/14px menlo, monospace;
+	float: right;
+	padding: 10px;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
