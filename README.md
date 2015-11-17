@@ -1,7 +1,13 @@
 # Intro to Scripting Languages
 
+## Week 13: Tuesday
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/rzw6ntxh2wnrlvm5e5gm5fcah4a)
+2. [Chat example](chat/)
+3. Exercise: *Database Chat* (coming soon)
+4. Reading: [*What is Code?*](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/) by [Paul Ford](http://ftrain.com/)
+
 ## Week 12: Thursday
-1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/4yfvrdu3uxden45jzv3jmrptoaa)
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=5jRL4EFqzXY)
 2. Project 3 critiques
 3. Demo: Login and registration (continued)
 
