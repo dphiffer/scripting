@@ -2,28 +2,31 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Chat demo</title>
-		<link rel="stylesheet" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+		<title>Chat</title>
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 		<div id="page">
 			<div id="msgs">
-				<?php
-				
-				$msgs = glob('msg/*.txt');
-				foreach ($msgs as $filename) {
-					$msg = file_get_contents($filename);
-					echo '<p>' . htmlentities($msg) . '</p>';
-				}
-				
-				?>
+				<p>Loading...</p>
 			</div>
 			<form action="submit.php" method="post">
-				<input type="text" name="msg" placeholder="Type a message here" autocomplete="off">
-				<input type="submit" value="Send">
+				<input type="hidden" name="img" value="">
+				<input type="hidden" name="avatar_color" value="">
+				<input type="hidden" name="avatar_position" value="">
+				<input type="hidden" name="avatar_icon" value="">
+				<input type="hidden" name="time" value="">
+				<div id="avatar" class="avatar">
+					<div class="relative">
+						<div class="icon"></div>
+					</div>
+				</div>
+				<textarea name="msg" placeholder="Type a message [return]" cols="80" rows="3"></textarea>
 			</form>
 		</div>
-		<script src="jquery-1.11.3.min.js"></script>
-		<script src="script.js"></script>
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/tinycolor-min.js"></script>
+		<script src="js/script.js"></script>
 	</body>
 </html>

@@ -6,7 +6,7 @@ html {
 }
 
 body {
-	margin: 10px;
+	margin: 0;
 }
 
 #page {
@@ -17,16 +17,36 @@ body {
 
 #msgs {
 	font: 14px menlo, monospace;
-	padding: 5px 15px;
-	border: 1px solid #ccc;
-	height: calc(100vh - 75px);
-	overflow: auto;
+	padding: 0 10px 70px 10px;
+	background: #f2f2f2;
+	min-height: 100vh;
 }
 
 #msgs p {
-	margin: 5px 0 0 0;
-	border-top: 1px solid #dedede;
+	margin: 10px 0 0 0;
+	border-top: 1px solid #ccc;
 	padding: 10px 0 0 0;
+}
+
+#msgs p .img {
+	float: left;
+	position: relative;
+	width: 48px;
+	height: 48px;
+	border-radius: 5px;
+	background-size: 48px 48px;
+}
+
+#msgs p .msg {
+	float: left;
+	margin-left: 10px;
+	width: calc(100% - 58px);
+}
+
+#msgs p:after {
+	content: "";
+	clear: both;
+	display: table;
 }
 
 #msgs p:first-child {
@@ -39,23 +59,87 @@ body {
 }
 
 form {
-	margin-top: 10px;
+	position: fixed;
+	bottom: 0;
 	width: 100%;
 	max-width: 750px;
-}
-
-input[type=text] {
-	font: 14px menlo, monospace;
-	width: calc(100% - 65px);
-	border: 1px solid #ccc;
-	padding: 10px;
-}
-
-input[type=submit] {
-	font: 14px/14px menlo, monospace;
-	float: right;
-	padding: 10px;
 	background: #fff;
-	border: 1px solid #ccc;
+	margin-bottom: 0;
+}
+
+.avatar {
+	position: absolute;
+	width: 48px;
+	height: 48px;
 	border-radius: 5px;
+	background: #ccc;
+	overflow: hidden;
+}
+
+#avatar {
+	left: 10px;
+	top: 10px;
+}
+
+.avatar .icon {
+	display: block;
+	margin: 5px;
+	width: 38px;
+	height: 38px;
+	background-image: url('avatars-white.png');
+	background-size: 190px 190px;
+}
+
+.avatar.black-icon .icon {
+	background-image: url('avatars-black.png');
+}
+
+.avatar .relative {
+	position: relative;
+}
+
+#avatar input {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	opacity: 0;
+}
+
+#avatar video {
+	position: absolute;
+	top: 0;
+	left: -130px;
+	width: 128px;
+	height: 96px;
+}
+
+#avatar canvas {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	top: 0;
+	left: 0;
+}
+
+textarea {
+	display: block;
+	font: 14px/22px menlo, monospace;
+	width: 100%;
+	height: 62px;
+	border: none;
+	padding: 10px 10px 10px 70px;
+	margin: 3px 0;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 0;
+	-webkit-appearance: none;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+.time-marker {
+	color: #808080;
+	padding-top: 10px;
+	font-size: 12px;
 }

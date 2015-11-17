@@ -4,4 +4,4 @@ debug.log
 */test/*
 students/*.txt
 students/*/
-chat/msg/*.txt
+chat/msg/*.json
