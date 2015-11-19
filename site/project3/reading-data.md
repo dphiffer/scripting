@@ -31,7 +31,7 @@ echo $safe_content;
 
 * Use the GitHub Desktop app, commit your changes 
 * Sync (push) to GitHub
-* Go to [phiffer.org/scripting](https://phiffer.org/scripting/) and login from the sidebar
+* Go to [scripting.network/fall-2015](http://scripting.network/fall-2015/) and login from the sidebar
 * Click the checkbox next to __project-3-wiki__ to clone your new repository
 
 Once the repository name turns into a link, click on it and click on the link to view wiki.php. You should see a blank page with "(no content)."

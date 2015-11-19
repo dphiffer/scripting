@@ -13,7 +13,7 @@ function parse_markdown($markdown) {
 // Looks for either $name.md or $name.html and returns HTML
 function get_partial($name) {
   $html = '';
-	$dir = dirname(__DIR__);
+	$dir = dirname(__DIR__) . '/site';
   if (file_exists("$dir/$name.md")) {
     $markdown = file_get_contents("$dir/$name.md");
     $html     = parse_markdown($markdown);
@@ -101,7 +101,7 @@ function strip_properties($text) {
 
 // Returns a filename based on the request URL
 function get_filename($base_path) {
-  $filename = 'README.md'; // Default filename
+  $filename = 'site/README.md'; // Default filename
   $path = preg_replace("#^$base_path/#", '', $_SERVER['REQUEST_URI']);
 
   if ($path != '' && $path != '/') { // If this isn't the homepage
@@ -111,6 +111,9 @@ function get_filename($base_path) {
 
     // Ignore trailing slash
     $filename = preg_replace('#/$#', '', $filename);
+		
+		// Look inside the site directory
+		$filename = "site/$filename";
 
     // Look for the .md file extension
     if (!file_exists($filename) &&

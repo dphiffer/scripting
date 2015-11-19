@@ -1,6 +1,6 @@
 # Making it your own
 
-Much like the [first project](/scripting/project1), the last step is probably the most important. We have a simple mechanism for accepting user input, and then making their input linkable. It's a tiny wiki that uses the URL query string as its data storage mechanism.
+Much like the [first project](/fall-2015/project1), the last step is probably the most important. We have a simple mechanism for accepting user input, and then making their input linkable. It's a tiny wiki that uses the URL query string as its data storage mechanism.
 
 ## Look at existing single-serving sites
 

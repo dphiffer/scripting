@@ -1,5 +1,5 @@
-[Home](/scripting/)
-[Chat](/scripting/chat/)
-[Students](/scripting/students)
+[Home](/fall-2015/)
+[Chat](/fall-2015/chat/)
+[Students](/fall-2015/students)
 [GitHub](https://github.com/dphiffer/scripting)
 [Slack](https://im215.slack.com/)

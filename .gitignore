@@ -1,7 +1,8 @@
 config.php
 update.log
 debug.log
-*/test/*
+site/*/test/*
 students/*.txt
 students/*/
 chat/msg/*.json
+work/*

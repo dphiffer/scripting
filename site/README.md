@@ -25,9 +25,9 @@
 
 ## Week 11: Tuesday
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=oMZzE3-K5I0)
-2. Recap: [area code examples](week10/area-codes/)
+2. Recap: [area code examples](site/week10/area-codes/)
 3. Demo: filesystems: ownership and permissions
-4. [Login example](https://github.com/dphiffer/scripting/blob/fall-2015/week11/login.php)
+4. [Login example](https://github.com/dphiffer/fall-2015/blob/fall-2015/week11/login.php)
 
 ## Week 10: Thursday
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=GLk7jguT000)
@@ -86,35 +86,35 @@
 ## Week 6: Thursday
 
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=QiADdtRep3M) 
-2. Lecture: [jQuery, events, images](/scripting/week6/jquery_events_images.pdf)
-3. [Examples](/scripting/week6/examples/), also [Pokemon](http://codepen.io/anon/pen/JYEQoq)
+2. Lecture: [jQuery, events, images](/fall-2015/week6/jquery_events_images.pdf)
+3. [Examples](/fall-2015/week6/examples/), also [Pokemon](http://codepen.io/anon/pen/JYEQoq)
 
 ## Week 6: Tuesday
 
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=r13ZPShu3f8)
 2. Writing exercise / [Hello Prompt](http://helloprompt.com/)
-3. Lecture: [CSS positioning (part 2)](/scripting/week6/css-positioning)
-4. Due Monday: [Project 2](/scripting/project2/what)
+3. Lecture: [CSS positioning (part 2)](/fall-2015/week6/css-positioning)
+4. Due Monday: [Project 2](/fall-2015/project2/what)
 5. Reading: *Chapter 15: Scripting Documents* (discuss Tuesday, 10/6)
 
 ## Week 5: Thursday
 
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=o2CJdL-Z6nQ)
 2. Discuss readings
-3. Lecture: [JavaScript statements](/scripting/week5/statements)
-3. Project: [What?](/scripting/project2/what) (due Monday, 10/5)
+3. Lecture: [JavaScript statements](/fall-2015/week5/statements)
+3. Project: [What?](/fall-2015/project2/what) (due Monday, 10/5)
 
 ## Week 5: Tuesday
 
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=UMhhbAAupDM)
 2. Discuss exercise 1
-3. Lecture: [Forms + variables](/scripting/week5/forms-vars)
+3. Lecture: [Forms + variables](/fall-2015/week5/forms-vars)
 
 ## Week 4: Thursday
 
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=e6S8fZmI8y4) (slides are available below, not sure why they didn’t show in the video)
 2. More project critiques
-3. Lecture: [CSS Positioning (part 1)](/scripting/week4/css-positioning)
+3. Lecture: [CSS Positioning (part 1)](/fall-2015/week4/css-positioning)
 4. Exercise: [What?](https://github.com/dphiffer/exercise-3-what) (due Tuesday, 9/22)
 5. An additional reading! [The Library of Babel](https://archive.org/stream/TheLibraryOfBabel/babel_djvu.txt) (discuss Thursday, 9/24)
 
@@ -137,29 +137,29 @@
 
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=US9D5PU-4Rs) ([CodePen example](http://codepen.io/anon/pen/VvLXgL))
 2. Reading discussion
-3. Lecture: [Intro to HTML + CSS](http://phiffer.org/scripting/week3/html-css)
-4. Exercise: [preparing for the duel (part 2)](http://phiffer.org/scripting/week3/duel) (due Thursday, 9/10)
+3. Lecture: [Intro to HTML + CSS](http://phiffer.org/fall-2015/week3/html-css)
+4. Exercise: [preparing for the duel (part 2)](http://phiffer.org/fall-2015/week3/duel) (due Thursday, 9/10)
 5. Reading: *Chapter 3. Types, Values, and Variables* (discuss Tuesday, 9/15)
 
 ## Week 2: Thursday
 
-1. We now have a [new class website](http://phiffer.org/scripting/)!
+1. We now have a [new class website](http://phiffer.org/fall-2015/)!
 2. One person from the class please join the [Google Hangout](https://www.youtube.com/watch?v=zFdf9co1Lfo) and show the video on the classroom screens
 4. Everybody please login to [Slack](https://im215.slack.com/)
 5. Recap from Tuesday
-6. Exercise: [Preparing for the duel](http://phiffer.org/scripting/week2/duel) (due Tuesday Sept 8th, before class)
+6. Exercise: [Preparing for the duel](http://phiffer.org/fall-2015/week2/duel) (due Tuesday Sept 8th, before class)
 
 ## Week 2: Tuesday
 
 1. Join the Google Hangout (use [Google Chrome](http://www.google.com/chrome/) browser)
-2. Lecture: [What do cows think about?](http://phiffer.org/scripting/week2/tuesday-lecture.html)
+2. Lecture: [What do cows think about?](http://phiffer.org/fall-2015/week2/tuesday-lecture.html)
 3. Install the [Atom editor](https://atom.io/) and [GitHub desktop app](https://desktop.github.com/)
 4. Reading: [Introduction to JavaScript](http://cdn.oreilly.com/oreilly/booksamplers/9780596805524_sampler.pdf) (we will discuss on Tuesday Sept 8th)
 5. Send me your GitHub username via email
 
 ## Week 1
 
-1. Review the [course syllabus](http://phiffer.org/scripting/syllabus).
+1. Review the [course syllabus](http://phiffer.org/fall-2015/syllabus).
 2. [Set up a (free) GitHub account](https://github.com/join) if you don't already have one.
 3. [Set up a Google Plus account](https://plus.google.com/) if you don't already have one.
 4. [Fill out the student survey](https://docs.google.com/forms/d/1v3zCvcZYKljpOYQ9-rX6-kKjOvnkCl6d8i0qduojEbo/viewform?usp=send_form).
