@@ -1,6 +1,8 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /fall-2015
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)\.(jpg|jpeg|png|gif|css)$ /fall-2015/site/$1.$2 [L]
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
