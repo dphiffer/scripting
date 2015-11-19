@@ -104,6 +104,10 @@ function get_filename($base_path) {
   $filename = 'site/README.md'; // Default filename
   $path = preg_replace("#^$base_path/#", '', $_SERVER['REQUEST_URI']);
 
+	if ($path == 'index.php') {
+		$path = '';
+	}
+
   if ($path != '' && $path != '/') { // If this isn't the homepage
 
     // Protect against directory traversal
