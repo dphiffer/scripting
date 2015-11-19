@@ -1,5 +1,11 @@
 # Intro to Scripting Languages
 
+## Week 13: Thursday
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/cr7tqoxko5nkns27i4gtbdrldma)
+2. Download and install [Sequel Pro](http://www.sequelpro.com/)
+3. Using the SSH tab, try logging in using the credentials I emailed you
+4. Database chat demo
+
 ## Week 13: Tuesday
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/rzw6ntxh2wnrlvm5e5gm5fcah4a)
 2. [Chat example](chat/)
