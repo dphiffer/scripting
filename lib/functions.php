@@ -6,26 +6,26 @@ use \Michelf\MarkdownExtra;
 // https://michelf.ca/projects/php-markdown/extra/
 function parse_markdown($markdown) {
 	$dir = __DIR__;
-  require_once "$dir/markdown/Michelf/MarkdownExtra.inc.php";
-  return MarkdownExtra::defaultTransform($markdown);
+	require_once "$dir/markdown/Michelf/MarkdownExtra.inc.php";
+	return MarkdownExtra::defaultTransform($markdown);
 }
 
 // Looks for either $name.md or $name.html and returns HTML
 function get_partial($name) {
-  $html = '';
+	$html = '';
 	$dir = dirname(__DIR__) . '/site';
-  if (file_exists("$dir/$name.md")) {
-    $markdown = file_get_contents("$dir/$name.md");
-    $html     = parse_markdown($markdown);
-  } else if (file_exists("$dir/$name.html")) {
-    $html     = file_get_contents("$dir/$name.html");
-  } else if (file_exists("$dir/$name.php")) {
+	if (file_exists("$dir/$name.md")) {
+		$markdown = file_get_contents("$dir/$name.md");
+		$html     = parse_markdown($markdown);
+	} else if (file_exists("$dir/$name.html")) {
+		$html     = file_get_contents("$dir/$name.html");
+	} else if (file_exists("$dir/$name.php")) {
 		ob_start();
 		include "$dir/$name.php";
 		$html = ob_get_contents();
 		ob_end_clean();
 	}
-  return $html;
+	return $html;
 }
 
 // Sets page title based on global $title and the page's first <h1>
