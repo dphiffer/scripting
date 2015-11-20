@@ -1,6 +1,6 @@
 [Home](/fall-2015/)
+[Slack](https://im215.slack.com/)
 [Chat](/fall-2015/chat/)
 [Students](/fall-2015/students)
 [Syllabus](/fall-2015/syllabus)
 [GitHub](https://github.com/dphiffer/scripting)
-[Slack](https://im215.slack.com/)
