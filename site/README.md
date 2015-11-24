@@ -4,7 +4,8 @@
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/tgkesp4dlvneqlpd33ffigpuzea)
 2. Database chat demo *cont'd*
 3. Final project discussion
-4. Reading: [The $PATH to Enlightenment](http://alistapart.com/article/the-path-to-enlightenment)
+4. Discuss *What is code*
+5. Reading: [The $PATH to Enlightenment](http://alistapart.com/article/the-path-to-enlightenment)
 
 ## Week 13: Thursday
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=ZhnH-XthnlU)
