@@ -14,7 +14,7 @@
 				var status = e.target.checked ? 'enable' : 'disable';
 				var data = 'repo=' + repo + '&status=' + status;
 				var xhr = new XMLHttpRequest();
-				xhr.open('POST', '/scripting/lib/repo.php', true);
+				xhr.open('POST', '/fall-2015/lib/repo.php', true);
 				xhr.onreadystatechange = function() {
 					if (this.readyState === 4) {
 						label.innerHTML = this.responseText;
