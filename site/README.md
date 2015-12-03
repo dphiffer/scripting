@@ -1,12 +1,17 @@
 # Intro to Scripting Languages
 
+## Week 15: Thursday
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/dzf2454bn7d4x7dzly5jiwjwpya)
+2. Talk about finals in small groups
+3. More demo time
+
 ## Week 15: Tuesday
-1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/qbveb3v5mzm2prlhit4axusfpia)
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=LT6P7h2eTPg)
 2. Guest speaker: [Paul Ford](http://ftrain.com/) of [Postlight](http://postlight.com/)
 3. Talk about finals
 
 ## Week 14: Tuesday
-1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/tgkesp4dlvneqlpd33ffigpuzea)
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=tYZb7mI2apE)
 2. Database chat demo *cont'd*
 3. Final project discussion
 4. Discuss *What is code*
