@@ -1,9 +1,9 @@
 # Intro to Scripting Languages
 
 ## Week 15: Thursday
-1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/dzf2454bn7d4x7dzly5jiwjwpya)
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=DhsWJA_kauw)
 2. Talk about finals in small groups
-3. More demo time
+3. More demo time: [ajax example](https://github.com/dphiffer/scripting/tree/fall-2015/site/week15/ajax-example)
 
 ## Week 15: Tuesday
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=LT6P7h2eTPg)
