@@ -1,5 +1,9 @@
 # Intro to Scripting Languages
 
+## Week 16: Tuesday
+1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://hangouts.google.com/call/4i4gfuvqrbq6nzthvhg5seajhia)
+2. Lab time
+
 ## Week 15: Thursday
 1. Please login to [Slack](https://im215.slack.com/) and join the [Google Hangout](https://www.youtube.com/watch?v=DhsWJA_kauw)
 2. Talk about finals in small groups
